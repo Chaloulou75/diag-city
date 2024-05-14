@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <header
-    class="fixed z-50 flex w-full flex-wrap bg-white py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-0"
+    class="fixed z-50 flex w-full flex-wrap bg-white py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2"
   >
     <nav
       class="mx-auto w-full max-w-[85rem] px-4 md:px-6 lg:px-8"
@@ -9,8 +9,11 @@
     >
       <div class="relative sm:flex sm:items-center">
         <div class="flex items-center justify-between">
-          <NuxtLink to="/" class="flex-none text-xl font-semibold">
-            <NuxtImg src="/logo-carre-small.png" />
+          <NuxtLink to="/" class="flex-none">
+            <NuxtImg
+              src="/logo-carre-small.png"
+              sizes="100vw sm:50vw md:400px"
+            />
           </NuxtLink>
           <div class="sm:hidden">
             <button
@@ -70,7 +73,7 @@
             >
 
             <div
-              class="hs-dropdown [--adaptive:none] [--strategy:static] sm:[--strategy:absolute]"
+              class="hs-dropdown [--adaptive:none] [--strategy:static] sm:[--strategy:absolute] sm:[--trigger:hover]"
             >
               <button
                 type="button"
