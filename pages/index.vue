@@ -1,4 +1,6 @@
 <script setup></script>
 <template>
-  <Hero></Hero>
+  <div>
+    <Hero></Hero>
+  </div>
 </template>

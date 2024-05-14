@@ -10,7 +10,15 @@ export default {
     "./node_modules/preline/preline.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        diagcity: {
+          blue: "#3211e6",
+          violet: "#903895",
+          gray: "#6a6967",
+        },
+      },
+    },
   },
   plugins: [require("preline/plugin")],
 };

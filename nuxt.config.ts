@@ -16,4 +16,7 @@ export default defineNuxtConfig({
     description: "Diag City!",
     defaultLocale: "fr",
   },
+  image: {
+    dir: "assets/img",
+  },
 });
