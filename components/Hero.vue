@@ -16,7 +16,7 @@
           <!-- Item -->
           <div class="hs-carousel-slide">
             <div
-              class="flex h-[30rem] flex-col bg-[url('https://images.unsplash.com/photo-1615615228002-890bb61cac6e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
+              class="bg-jesse flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
             >
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
@@ -41,8 +41,9 @@
           <!-- Item -->
           <div class="hs-carousel-slide">
             <div
-              class="flex h-[30rem] flex-col bg-[url('https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
+              class="bg-desamiantage flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
             >
+              <!-- [url('https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] -->
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
               >
@@ -66,8 +67,9 @@
           <!-- Item -->
           <div class="hs-carousel-slide">
             <div
-              class="flex h-[30rem] flex-col bg-[url('https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
+              class="bg-conduit-amiante flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
             >
+              <!-- [url('https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] -->
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
               >

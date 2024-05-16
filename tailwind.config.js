@@ -18,6 +18,11 @@ export default {
           gray: "#6a6967",
         },
       },
+      backgroundImage: {
+        desamiantage: "url('assets/img/desamiantage.jpg')",
+        "conduit-amiante": "url('assets/img/conduits_amiantes.jpg')",
+        jesse: "url('assets/img/jesse.jpeg')",
+      },
     },
   },
   plugins: [require("preline/plugin")],

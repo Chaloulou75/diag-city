@@ -1,48 +1,42 @@
 <script setup></script>
 <template>
-  <footer
-    class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto"
-  >
+  <footer class="mx-auto mt-auto w-full max-w-full px-4 py-10 sm:px-6 lg:px-8">
     <!-- Grid -->
-    <div class="grid items-center grid-cols-1 gap-5 md:grid-cols-3">
+    <div class="grid grid-cols-1 items-center gap-5 md:grid-cols-3">
       <div>
-        <NuxtLink
-          to="/"
-          class="flex-none text-xl font-semibold text-black"
-          aria-label="Diag city"
-        >
-          <NuxtImg src="/logo-carre-small.png"
+        <NuxtLink to="/" class="flex-none" aria-label="Diag city">
+          <NuxtImg src="/logo-carre-small.png" height="60"
         /></NuxtLink>
       </div>
       <!-- End Col -->
 
       <ul class="text-center">
         <li
-          class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300"
+          class="relative inline-block pe-8 before:absolute before:end-3 before:top-1/2 before:-translate-y-1/2 before:text-gray-300 before:content-['/'] last:pe-0 last-of-type:before:hidden"
         >
           <NuxtLink
             to="/contact"
-            class="inline-flex text-sm text-gray-500 gap-x-2 hover:text-gray-800"
+            class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
           >
             Contact
           </NuxtLink>
         </li>
         <li
-          class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300"
+          class="relative inline-block pe-8 before:absolute before:end-3 before:top-1/2 before:-translate-y-1/2 before:text-gray-300 before:content-['/'] last:pe-0 last-of-type:before:hidden"
         >
           <NuxtLink
             to="/contact"
-            class="inline-flex text-sm text-gray-500 gap-x-2 hover:text-gray-800"
+            class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
           >
             Services
           </NuxtLink>
         </li>
         <li
-          class="inline-block relative pe-8 last:pe-0 last-of-type:before:hidden before:absolute before:top-1/2 before:end-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300"
+          class="relative inline-block pe-8 before:absolute before:end-3 before:top-1/2 before:-translate-y-1/2 before:text-gray-300 before:content-['/'] last:pe-0 last-of-type:before:hidden"
         >
           <NuxtLink
             to="/contact"
-            class="inline-flex text-sm text-gray-500 gap-x-2 hover:text-gray-800"
+            class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
           >
             Blog
           </NuxtLink>
@@ -54,10 +48,10 @@
       <div class="space-x-2 md:text-end">
         <NuxtLink
           to="/contact"
-          class="inline-flex items-center justify-center text-sm font-semibold text-gray-500 border border-transparent rounded-full size-8 gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+          class="inline-flex size-8 items-center justify-center gap-x-2 rounded-full border border-transparent text-sm font-semibold text-gray-500 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
         >
           <svg
-            class="flex-shrink-0 size-3.5"
+            class="size-3.5 flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -71,10 +65,10 @@
         </NuxtLink>
         <NuxtLink
           to="/contact"
-          class="inline-flex items-center justify-center text-sm font-semibold text-gray-500 border border-transparent rounded-full size-8 gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+          class="inline-flex size-8 items-center justify-center gap-x-2 rounded-full border border-transparent text-sm font-semibold text-gray-500 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
         >
           <svg
-            class="flex-shrink-0 size-3.5"
+            class="size-3.5 flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -88,10 +82,10 @@
         </NuxtLink>
         <NuxtLink
           to="/contact"
-          class="inline-flex items-center justify-center text-sm font-semibold text-gray-500 border border-transparent rounded-full size-8 gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700"
+          class="inline-flex size-8 items-center justify-center gap-x-2 rounded-full border border-transparent text-sm font-semibold text-gray-500 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700"
         >
           <svg
-            class="flex-shrink-0 size-3.5"
+            class="size-3.5 flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
@@ -105,10 +99,10 @@
         </NuxtLink>
         <NuxtLink
           to="/contact"
-          class="inline-flex items-center justify-center text-sm font-semibold text-gray-500 border border-transparent rounded-full size-8 gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:bg-neutral-700"
+          class="inline-flex size-8 items-center justify-center gap-x-2 rounded-full border border-transparent text-sm font-semibold text-gray-500 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-400 dark:hover:bg-neutral-700"
         >
           <svg
-            class="flex-shrink-0 size-3.5"
+            class="size-3.5 flex-shrink-0"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
