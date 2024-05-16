@@ -19,6 +19,6 @@ export default defineNuxtConfig({
   },
   image: {
     dir: "assets/img",
-    provider: "netlify",
+    provider: "ipx",
   },
 });
