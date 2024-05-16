@@ -21,9 +21,9 @@
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
               >
-                <span class="block text-white">Diagnostics</span>
-                <span class="block text-xl text-white md:text-3xl"
-                  >Diagnostics pour votre copropriété</span
+                <span class="block text-gray-700">Diagnostics</span>
+                <span class="block text-xl text-gray-800 md:text-3xl"
+                  >Diagnostics pour votre Copropriété</span
                 >
                 <div class="mt-5">
                   <NuxtLink
@@ -47,13 +47,13 @@
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
               >
-                <span class="block text-white">CoolApps</span>
+                <span class="block text-white">Diagnostic</span>
                 <span class="block text-xl text-white md:text-3xl"
-                  >From mobile apps to gaming consoles</span
+                  >Diagnostic DPE</span
                 >
                 <div class="mt-5">
                   <NuxtLink
-                    to="/contact"
+                    to="/diagnostic/pour-la-vente/diagnostic-dpe"
                     class="inline-flex items-center gap-x-2 rounded-xl border border-transparent bg-white px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50"
                   >
                     En savoir plus
@@ -73,13 +73,13 @@
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
               >
-                <span class="block text-white">Grumpy</span>
+                <span class="block text-white">Diagnostic</span>
                 <span class="block text-xl text-white md:text-3xl"
-                  >Bringing Art to everything</span
+                  >Diagnostic Amiante</span
                 >
                 <div class="mt-5">
                   <NuxtLink
-                    tp="/contact"
+                    tp="/diagnostic/pour-la-vente/diagnostic-amiante"
                     class="inline-flex items-center gap-x-2 rounded-xl border border-transparent bg-white px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50"
                   >
                     En savoir plus
