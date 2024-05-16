@@ -17,6 +17,6 @@ export default defineNuxtConfig({
     defaultLocale: "fr",
   },
   image: {
-    dir: "public/img",
+    dir: "assets/img",
   },
 });
