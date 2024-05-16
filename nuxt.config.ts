@@ -19,7 +19,5 @@ export default defineNuxtConfig({
   },
   image: {
     dir: "assets/img",
-    provider: "netlify",
-    netlify: { baseURL: "https://diag-city.netlify.com" },
   },
 });
