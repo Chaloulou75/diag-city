@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <header
-    class="fixed z-50 flex w-full flex-wrap bg-white/95 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2"
+    class="z-50 flex w-full flex-wrap bg-white/95 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
   >
     <nav
       class="mx-auto w-full max-w-[85rem] px-4 md:px-6 lg:px-8"
