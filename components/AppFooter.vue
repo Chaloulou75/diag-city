@@ -28,7 +28,7 @@
             to="/contact"
             class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
           >
-            Services
+            Plus
           </NuxtLink>
         </li>
         <li
@@ -38,7 +38,7 @@
             to="/contact"
             class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
           >
-            Blog
+            Autre
           </NuxtLink>
         </li>
       </ul>
