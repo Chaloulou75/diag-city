@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <header
-    class="fixed z-50 flex w-full flex-wrap bg-white/85 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2"
+    class="fixed z-50 flex w-full flex-wrap bg-white/95 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2"
   >
     <nav
       class="mx-auto w-full max-w-[85rem] px-4 md:px-6 lg:px-8"
@@ -91,7 +91,7 @@
               </button>
 
               <div
-                class="hs-dropdown-menu sm: start-0 top-full z-10 hidden w-full min-w-60 rounded-lg bg-white py-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute hs-dropdown-open:opacity-100 sm:border sm:px-2 sm:shadow-md sm:duration-[150ms]"
+                class="hs-dropdown-menu top-full z-10 hidden w-full min-w-60 rounded-lg bg-white py-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute hs-dropdown-open:opacity-100 sm:start-0 sm:border sm:px-2 sm:shadow-md sm:duration-[150ms]"
               >
                 <div class="sm:grid sm:grid-cols-3">
                   <div class="flex flex-col">

@@ -27,7 +27,7 @@
                 >
                 <div class="mt-5">
                   <NuxtLink
-                    to="/contact"
+                    to="/diagnostic/diagnostic-dtg"
                     class="inline-flex items-center gap-x-2 rounded-xl border border-transparent bg-white px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50"
                   >
                     En savoir plus
