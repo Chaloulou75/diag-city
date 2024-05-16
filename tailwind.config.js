@@ -19,9 +19,9 @@ export default {
         },
       },
       backgroundImage: {
-        desamiantage: "url('assets/img/desamiantage.jpg')",
-        "conduit-amiante": "url('assets/img/conduits_amiantes.jpg')",
-        jesse: "url('assets/img/jesse.jpeg')",
+        desamiantage: "url('public/img/desamiantage.jpg')",
+        "conduit-amiante": "url('public/img/conduits_amiantes.jpg')",
+        jesse: "url('public/img/jesse.jpeg')",
       },
     },
   },
