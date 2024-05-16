@@ -17,8 +17,5 @@ export default defineNuxtConfig({
       "Diag City. Diagnostics pour votre copropriété. Diagnostics Amiantes. Diagnostics électrique. Diagnostics Loi Carrez. Diagnostics D.P.E. Diagnostics Termites, Diagnostics Gaz. Diagnostics Plomb. Diagnostics E.R.P",
     defaultLocale: "fr",
   },
-  image: {
-    dir: "public/img",
-    provider: "ipx",
-  },
+  image: {},
 });
