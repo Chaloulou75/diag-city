@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="px-4 py-10 md:px-6 lg:px-8">
+  <div>
     <div
       data-hs-carousel='{
       "loadingClasses": "opacity-0"
@@ -8,7 +8,7 @@
       class="relative"
     >
       <div
-        class="hs-carousel relative h-[30rem] w-full overflow-hidden rounded-2xl bg-gray-100 md:h-[calc(100vh-106px)] dark:bg-neutral-800"
+        class="hs-carousel relative h-[30rem] w-full overflow-hidden rounded-2xl bg-gray-100 md:h-[calc(100vh-106px)] md:rounded-lg"
       >
         <div
           class="hs-carousel-body absolute bottom-0 start-0 top-0 flex flex-nowrap opacity-0 transition-transform duration-700"
@@ -16,13 +16,13 @@
           <!-- Item -->
           <div class="hs-carousel-slide">
             <div
-              class="bg-jesse flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
+              class="bg-bagatelle flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
             >
               <div
-                class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
+                class="mt-auto w-2/3 pb-5 ps-5 md:max-w-2xl md:pb-10 md:ps-10"
               >
-                <span class="block text-gray-700">Diagnostics</span>
-                <span class="block text-xl text-gray-800 md:text-3xl"
+                <span class="block text-white">Diagnostics</span>
+                <span class="block text-xl text-white md:text-3xl md:font-bold"
                   >Diagnostics pour votre Copropriété</span
                 >
                 <div class="mt-5">
@@ -41,9 +41,8 @@
           <!-- Item -->
           <div class="hs-carousel-slide">
             <div
-              class="bg-desamiantage flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
+              class="bg-archives flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
             >
-              <!-- [url('https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] -->
               <div
                 class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
               >
@@ -67,7 +66,7 @@
           <!-- Item -->
           <div class="hs-carousel-slide">
             <div
-              class="bg-conduit-amiante flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
+              class="flex h-[30rem] flex-col bg-conduit-amiante bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
             >
               <!-- [url('https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] -->
               <div

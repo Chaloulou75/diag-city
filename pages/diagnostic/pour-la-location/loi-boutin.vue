@@ -1,15 +1,15 @@
 <template>
   <div class="container mx-auto p-4">
     <div class="mb-8 text-center">
-      <h1 class="mb-2 text-3xl font-bold uppercase">Le diagnostic Boutin</h1>
+      <h1 class="mb-2 text-3xl font-bold uppercase">Loi Boutin</h1>
       <p class="text-gray-600">
-        Utilité, obligations, déroulement et validité du diagnostic Boutin
+        Utilité, obligations, déroulement et validité de la loi Boutin
       </p>
     </div>
 
     <!-- Utilité -->
     <div class="mb-8">
-      <h2 class="mb-2 text-2xl font-bold">Utilité du diagnostic Boutin</h2>
+      <h2 class="mb-2 text-2xl font-bold">Utilité de la Loi Boutin</h2>
       <p class="leading-relaxed text-gray-700"></p>
     </div>
 

@@ -4,7 +4,7 @@
     class="z-50 flex w-full flex-wrap bg-white/95 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
   >
     <nav
-      class="mx-auto w-full max-w-[85rem] px-4 md:px-6 lg:px-8"
+      class="mx-auto w-full max-w-full px-4 md:px-6 lg:px-8"
       aria-label="Global"
     >
       <div class="relative sm:flex sm:items-center">
@@ -156,10 +156,10 @@
                       Le Diagnostic Amiante (DAPP)
                     </NuxtLink>
                     <NuxtLink
-                      to="/diagnostic/pour-la-location/diagnostic-boutin"
+                      to="/diagnostic/pour-la-location/loi-boutin"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                     >
-                      Le Diagnostic Boutin
+                      Loi Boutin
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-dpe"

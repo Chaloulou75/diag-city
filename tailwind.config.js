@@ -22,6 +22,8 @@ export default {
         desamiantage: "url('public/img/desamiantage.jpg')",
         "conduit-amiante": "url('public/img/conduits_amiantes.jpg')",
         jesse: "url('public/img/jesse.jpeg')",
+        archives: "url('public/img/archives.jpeg')",
+        bagatelle: "url('public/img/bagatelle.jpeg')",
       },
     },
   },
