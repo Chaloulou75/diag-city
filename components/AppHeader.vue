@@ -62,8 +62,11 @@
           <div
             class="mt-5 flex flex-col gap-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
           >
-            <a class="font-medium text-blue-500" href="#" aria-current="page"
-              >Copropriété</a
+            <NuxtLink
+              to="/diagnostic/diagnostic-dtg"
+              class="font-medium text-blue-500"
+              aria-current="page"
+              >Copropriété</NuxtLink
             >
 
             <div
