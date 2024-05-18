@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     url: "https://diag-city.netlify.com",
     name: "Diag City - Diagnostics pour votre copropriété",
     description:
-      "Diag City. Diagnostics pour votre copropriété. Diagnostics Amiantes. Diagnostics électrique. Diagnostics Loi Carrez. Diagnostics D.P.E. Diagnostics Termites, Diagnostics Gaz. Diagnostics Plomb. Diagnostics E.R.P",
+      "Diag City. Diagnostics pour votre copropriété. Diagnostics Amiantes. Diagnostics électrique. Diagnostics Loi Carrez. Loi Boutin. Diagnostics D.P.E. Diagnostics Termites, Diagnostics Gaz. Diagnostics Plomb. Diagnostics E.R.P",
     defaultLocale: "fr",
   },
   image: {},

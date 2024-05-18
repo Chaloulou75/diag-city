@@ -1,38 +1,84 @@
 <template>
-  <div class="container mx-auto p-4">
+  <div class="container p-4 mx-auto">
     <div class="mb-8 text-center">
-      <h1 class="mb-2 text-3xl font-bold uppercase">Loi Boutin</h1>
+      <h1 class="mb-2 text-3xl font-bold uppercase">
+        Diagnostic Surface Habitable (Loi Boutin)
+      </h1>
       <p class="text-gray-600">
-        Utilité, obligations, déroulement et validité de la loi Boutin
+        Tout ce que vous devez savoir sur le diagnostic de surface habitable
       </p>
     </div>
 
-    <!-- Utilité -->
     <div class="mb-8">
-      <h2 class="mb-2 text-2xl font-bold">Utilité de la Loi Boutin</h2>
-      <p class="leading-relaxed text-gray-700"></p>
+      <h2 class="mb-2 text-2xl font-bold">
+        Utilité du Diagnostic Surface Habitable
+      </h2>
+      <p class="leading-relaxed text-gray-700">
+        Ce diagnostic a été mis en place suite à la parution de la Loi Boutin
+        2009 dans le but de protéger les locataires et de lutter contre
+        l’exclusion. La superficie habitable doit obligatoirement apparaître sur
+        tout nouveau bail de location pour une maison ou un appartement.
+      </p>
     </div>
 
-    <!-- Obligation -->
+    <div class="mb-8">
+      <h2 class="mb-2 text-2xl font-bold">
+        Surface Habitable et Loi Carrez : Les Différences
+      </h2>
+      <p class="leading-relaxed text-gray-700">
+        La surface habitable définie par la Loi Boutin du 25 mars 2009 et la
+        superficie privative selon la loi Carrez ne sont pas calculées de la
+        même manière et ne peuvent être interchangeables. En votre qualité de
+        propriétaire bailleur, si vous souhaitez vendre votre logement en
+        copropriété, vous devrez faire réaliser un nouveau mesurage selon la Loi
+        Carrez.
+      </p>
+    </div>
+
     <div class="mb-8">
       <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-      <p class="leading-relaxed text-gray-700"></p>
+      <p class="leading-relaxed text-gray-700">
+        Un propriétaire a l’obligation de notifier la superficie habitable du
+        bien loué à la signature du bail. Cette obligation concerne les
+        locations vides et à usage de résidence principale. Ce diagnostic se
+        résume au calcul de la surface habitable du bien qui doit être inscrite
+        dans le bail. La Loi Boutin prévoit que les bailleurs en location vide
+        auront l'obligation de préciser la surface habitable du bien immobilier
+        loué dans le contrat de bail. Les locations meublées, secondaires et
+        saisonnières ne sont donc pas concernées par cette obligation de
+        mesurage Loi Boutin.
+      </p>
     </div>
 
-    <!-- Déroulement de la mission -->
     <div class="mb-8">
-      <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-      <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
-        <li></li>
+      <h2 class="mb-2 text-2xl font-bold">Déroulement de la Mission</h2>
+      <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <li>
+          La loi Boutin n'oblige pas à avoir recours à un diagnostiqueur pour
+          calculer votre superficie habitable. Néanmoins, cela est recommandé.
+          En effet, afin d'éviter toute mise en cause par le futur locataire, il
+          est préférable de s'adresser à un professionnel pour effectuer le
+          mesurage de la surface habitable (dite Loi Boutin).
+        </li>
+        <li>
+          À l’aide d'un laser mètre, le diagnostiqueur mesure très précisément
+          la superficie habitable. La superficie habitable telle que décrite
+          dans la Loi Boutin, est la surface de plancher construite après
+          déduction des surfaces occupées par les murs, cloisons, marches et
+          cages d'escaliers, gaines, embrasures de portes et fenêtres, en
+          déduisant les parties de locaux d'une hauteur inférieure à 1,80 mètre.
+        </li>
       </ul>
     </div>
 
-    <!-- Validité -->
-    <div>
+    <div class="mb-8">
       <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-      <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
-        <li></li>
-        <li></li>
+      <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <li>
+          Sans limite de temps. Toutefois, si des travaux ont été réalisés
+          depuis le premier diagnostic Loi Boutin, une nouvelle expertise est
+          obligatoire puisque dans ce cas il y a une modification de surface.
+        </li>
       </ul>
     </div>
   </div>

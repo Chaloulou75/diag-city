@@ -11,82 +11,27 @@
         class="hs-carousel relative h-[30rem] w-full overflow-hidden rounded-2xl bg-gray-100 md:h-[calc(100vh-106px)] md:rounded-lg"
       >
         <div
-          class="hs-carousel-body absolute bottom-0 start-0 top-0 flex flex-nowrap opacity-0 transition-transform duration-700"
+          class="absolute top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap"
         >
           <!-- Item -->
-          <div class="hs-carousel-slide">
-            <div
-              class="bg-bagatelle flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
-            >
-              <div
-                class="mt-auto w-2/3 pb-5 ps-5 md:max-w-2xl md:pb-10 md:ps-10"
-              >
-                <span class="block text-white">Diagnostics</span>
-                <span class="block text-xl text-white md:text-3xl md:font-bold"
-                  >Diagnostics pour votre Copropriété</span
-                >
-                <div class="mt-5">
-                  <NuxtLink
-                    to="/diagnostic/diagnostic-dtg"
-                    class="inline-flex items-center gap-x-2 rounded-xl border border-transparent bg-white px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50"
-                  >
-                    En savoir plus
-                  </NuxtLink>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="hs-carousel-slide">
-            <div
-              class="bg-archives flex h-[30rem] flex-col bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
-            >
-              <div
-                class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
-              >
-                <span class="block text-white">Diagnostic</span>
-                <span class="block text-xl text-white md:text-3xl"
-                  >Diagnostic DPE</span
-                >
-                <div class="mt-5">
-                  <NuxtLink
-                    to="/diagnostic/pour-la-vente/diagnostic-dpe"
-                    class="inline-flex items-center gap-x-2 rounded-xl border border-transparent bg-white px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50"
-                  >
-                    En savoir plus
-                  </NuxtLink>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="hs-carousel-slide">
-            <div
-              class="flex h-[30rem] flex-col bg-conduit-amiante bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)]"
-            >
-              <!-- [url('https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] -->
-              <div
-                class="mt-auto w-2/3 pb-5 ps-5 md:max-w-lg md:pb-10 md:ps-10"
-              >
-                <span class="block text-white">Diagnostic</span>
-                <span class="block text-xl text-white md:text-3xl"
-                  >Diagnostic Amiante</span
-                >
-                <div class="mt-5">
-                  <NuxtLink
-                    tp="/diagnostic/pour-la-vente/diagnostic-amiante"
-                    class="inline-flex items-center gap-x-2 rounded-xl border border-transparent bg-white px-3 py-2 text-sm font-medium text-black hover:bg-gray-100 disabled:pointer-events-none disabled:opacity-50"
-                  >
-                    En savoir plus
-                  </NuxtLink>
-                </div>
-              </div>
-            </div>
-          </div>
+          <CarouselItem
+            :title="'Diagnostics pour votre Copropriété'"
+            :background="'bg-bagatelle'"
+            :url="'/diagnostic/diagnostic-dtg'"
+            :color-text="'bg-gradient-to-br from-yellow-400 to-green-300'"
+          />
+          <CarouselItem
+            :title="'Diagnostic DPE'"
+            :background="'bg-archives'"
+            :url="'/diagnostic/pour-la-vente/diagnostic-dpe'"
+            :color-text="'bg-gradient-to-br from-black to-white'"
+          />
+          <CarouselItem
+            :title="'Diagnostic Amiante'"
+            :background="'bg-conduit-amiante'"
+            :url="'/diagnostic/pour-la-vente/diagnostic-amiante'"
+            :color-text="'bg-gradient-to-br from-gray-200 to-white'"
+          />
           <!-- End Item -->
         </div>
       </div>
@@ -94,7 +39,7 @@
       <!-- Arrows -->
       <button
         type="button"
-        class="hs-carousel-prev hs-carousel:disabled:opacity-50 absolute inset-y-0 start-0 inline-flex h-full w-12 items-center justify-center rounded-s-2xl text-black hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
+        class="absolute inset-y-0 inline-flex items-center justify-center w-12 h-full text-black hs-carousel-prev hs-carousel:disabled:opacity-50 start-0 rounded-s-2xl hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
       >
         <span class="text-2xl" aria-hidden="true">
           <svg
@@ -116,7 +61,7 @@
 
       <button
         type="button"
-        class="hs-carousel-next hs-carousel:disabled:opacity-50 absolute inset-y-0 end-0 inline-flex h-full w-12 items-center justify-center rounded-e-2xl text-black hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
+        class="absolute inset-y-0 inline-flex items-center justify-center w-12 h-full text-black hs-carousel-next hs-carousel:disabled:opacity-50 end-0 rounded-e-2xl hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
       >
         <span class="sr-only">Suivant</span>
         <span class="text-2xl" aria-hidden="true">
