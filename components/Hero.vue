@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/vue/24/solid";
+</script>
 <template>
   <div>
     <div
@@ -8,29 +10,29 @@
       class="relative"
     >
       <div
-        class="hs-carousel relative h-[30rem] w-full overflow-hidden rounded-2xl bg-gray-100 md:h-[calc(100vh-106px)] md:rounded-lg"
+        class="hs-carousel relative h-[30rem] w-full overflow-hidden rounded bg-gray-100 md:h-[calc(100vh-106px)] md:rounded-sm"
       >
         <div
-          class="absolute top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap"
+          class="hs-carousel-body absolute bottom-0 start-0 top-0 flex flex-nowrap opacity-0 transition-transform duration-700"
         >
           <!-- Item -->
           <CarouselItem
             :title="'Diagnostics pour votre Copropriété'"
             :background="'bg-bagatelle'"
             :url="'/diagnostic/diagnostic-dtg'"
-            :color-text="'bg-gradient-to-br from-yellow-400 to-green-300'"
+            :color-text="'bg-gradient-to-r from-white to-gray-200'"
           />
           <CarouselItem
             :title="'Diagnostic DPE'"
             :background="'bg-archives'"
             :url="'/diagnostic/pour-la-vente/diagnostic-dpe'"
-            :color-text="'bg-gradient-to-br from-black to-white'"
+            :color-text="'bg-gradient-to-br from-black to-gray-900'"
           />
           <CarouselItem
             :title="'Diagnostic Amiante'"
             :background="'bg-conduit-amiante'"
             :url="'/diagnostic/pour-la-vente/diagnostic-amiante'"
-            :color-text="'bg-gradient-to-br from-gray-200 to-white'"
+            :color-text="'bg-gradient-to-br from-yellow-400 to-yellow-300'"
           />
           <!-- End Item -->
         </div>
@@ -39,7 +41,7 @@
       <!-- Arrows -->
       <button
         type="button"
-        class="absolute inset-y-0 inline-flex items-center justify-center w-12 h-full text-black hs-carousel-prev hs-carousel:disabled:opacity-50 start-0 rounded-s-2xl hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
+        class="hs-carousel-prev hs-carousel:disabled:opacity-50 absolute inset-y-0 start-0 inline-flex h-full w-12 items-center justify-center rounded-s-2xl text-black hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
       >
         <span class="text-2xl" aria-hidden="true">
           <svg
@@ -61,7 +63,7 @@
 
       <button
         type="button"
-        class="absolute inset-y-0 inline-flex items-center justify-center w-12 h-full text-black hs-carousel-next hs-carousel:disabled:opacity-50 end-0 rounded-e-2xl hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
+        class="hs-carousel-next hs-carousel:disabled:opacity-50 absolute inset-y-0 end-0 inline-flex h-full w-12 items-center justify-center rounded-e-2xl text-black hover:bg-white/20 focus:bg-white/20 focus:outline-none disabled:pointer-events-none"
       >
         <span class="sr-only">Suivant</span>
         <span class="text-2xl" aria-hidden="true">
