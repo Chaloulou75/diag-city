@@ -1,5 +1,10 @@
 <template>
-  <div class="container mx-auto p-4">
+  <PageHeader
+    :title="'Le diagnostic Amiante'"
+    :subtitle="'L’utilité, les obligations, le déroulement et la validité du diagnostic amiante'"
+    :image="'bg-bandeau-amiante'"
+  />
+  <div class="container p-4 mx-auto">
     <div class="mb-8 text-center">
       <h1 class="mb-2 text-3xl font-bold uppercase">Le diagnostic Amiante</h1>
       <p class="text-gray-600">
@@ -50,7 +55,7 @@
     <!-- Déroulement de la mission -->
     <div class="mb-8">
       <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-      <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+      <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
         <li>
           La recherche d'amiante s'effectue visuellement, elle est basée sur une
           liste de matériaux et de produits définis par la réglementation.
@@ -73,7 +78,7 @@
     <!-- Validité -->
     <div>
       <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-      <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+      <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
         <li>
           Durée illimitée si aucune trace d’amiante n'est détectée (résultat
           négatif).

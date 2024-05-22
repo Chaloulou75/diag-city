@@ -24,6 +24,7 @@ export default {
         jesse: "url('public/img/jesse.jpeg')",
         archives: "url('public/img/archives.jpeg')",
         bagatelle: "url('public/img/bagatelle.jpeg')",
+        "bandeau-amiante": "url('public/img/band-amiante.jpg')",
       },
     },
   },
