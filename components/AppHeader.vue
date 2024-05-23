@@ -64,7 +64,7 @@
           >
             <NuxtLink
               to="/diagnostic/diagnostic-dtg"
-              class="flex items-center space-x-2 font-medium text-diagcity-blue hover:text-diagcity-gray"
+              class="flex items-center space-x-2 font-medium text-diagcity-blue hover:text-gray-400"
               aria-current="page"
             >
               <NuxtImg

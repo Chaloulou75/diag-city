@@ -10,7 +10,7 @@
         class="mt-12 block text-4xl font-extrabold text-white md:mt-auto md:text-7xl"
       >
         <span
-          class="bg-gradient-to-b from-black to-diagcity-blue bg-clip-text text-transparent md:bg-gradient-to-r md:from-white md:to-gray-200"
+          class="bg-gradient-to-b from-black to-diagcity-blue bg-clip-text text-transparent md:bg-gradient-to-r md:from-white md:to-gray-50"
           >Diagnostics pour votre Copropriété</span
         >
       </div>
