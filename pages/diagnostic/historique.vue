@@ -3,12 +3,16 @@
     <PageHeader
       :title="'Historique du diagnostic : l\'essentiel'"
       :subtitle="'Chronologie des principaux diagnostics immobiliers depuis 1996'"
-      :image="'bg-bagatelle'"
+      :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-70'"
     />
-    <div class="p-4">
+    <NuxtImg
+      src="/img/band-history.png"
+      class="mx-auto h-auto w-full md:w-2/3"
+    />
+    <div class="px-4">
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">1996</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>
             Superficie de loi Carrez + repérage des calorifugeage et flocages
             (en amiante)
@@ -18,27 +22,27 @@
 
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">1998</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>Premier diagnostic plomb (ERAP)</li>
         </ul>
       </div>
 
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">1999</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>Diagnostic état parasitaire, selon la zone</li>
         </ul>
       </div>
 
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">2017</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>Diagnostic Technique Global</li>
         </ul>
       </div>
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">2021</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>
             Nouveau DPE (nouvelle méthode de calcul, opposabilité, validité des
             anciens DPE réduite)
@@ -48,7 +52,7 @@
 
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">2023</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>Projet de Plan Pluriannuel de Travaux</li>
         </ul>
       </div>

@@ -6,22 +6,28 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="relative w-full">
+  <div class="relative mb-8 w-full">
     <div
-      class="flex h-36 flex-col bg-black bg-opacity-80 bg-cover bg-center bg-no-repeat md:h-56"
+      class="flex h-36 flex-col bg-cover bg-center bg-no-repeat md:h-44"
       :class="image"
     >
-      <!-- <div class="absolute inset-0 bg-black "></div> -->
+      <!-- <div class="absolute inset-0 bg-black bg-opacity-30"></div> -->
       <div class="mb-auto mt-4 text-center md:mt-8">
         <h1
-          class="mb-2 bg-white bg-clip-text text-4xl font-bold text-transparent md:font-extrabold"
+          class="mb-2 text-2xl font-bold text-white md:text-5xl md:font-extrabold"
         >
+          <span
+            class="bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent"
+          ></span>
           {{ title }}
         </h1>
 
-        <p v-if="subtitle" class="bg-white bg-clip-text text-transparent">
+        <h2
+          v-if="subtitle"
+          class="bg-white bg-clip-text text-xl text-transparent"
+        >
           {{ subtitle }}
-        </p>
+        </h2>
       </div>
     </div>
   </div>

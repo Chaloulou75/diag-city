@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
   <header
-    class="z-50 flex flex-wrap w-full py-4 text-sm bg-white/90 sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
+    class="z-50 flex w-full flex-wrap bg-white/90 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
   >
     <nav
-      class="w-full max-w-full px-4 mx-auto md:px-6 lg:px-8"
+      class="mx-auto w-full max-w-full px-4 md:px-6 lg:px-8"
       aria-label="Global"
     >
       <div class="relative sm:flex sm:items-center">
@@ -15,13 +15,13 @@
           <div class="sm:hidden">
             <button
               type="button"
-              class="inline-flex items-center justify-center p-2 text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm hs-collapse-toggle gap-x-2 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
+              class="hs-collapse-toggle inline-flex items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white p-2 text-gray-800 shadow-sm hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
               data-hs-collapse="#navbar-hover-event"
               aria-controls="navbar-hover-event"
               aria-label="Toggle navigation"
             >
               <svg
-                class="flex-shrink-0 size-4 hs-collapse-open:hidden"
+                class="size-4 flex-shrink-0 hs-collapse-open:hidden"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -37,7 +37,7 @@
                 <line x1="3" x2="21" y1="18" y2="18" />
               </svg>
               <svg
-                class="flex-shrink-0 hidden size-4 hs-collapse-open:block"
+                class="hidden size-4 flex-shrink-0 hs-collapse-open:block"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -57,20 +57,20 @@
 
         <div
           id="navbar-hover-event"
-          class="hidden overflow-hidden transition-all duration-300 hs-collapse grow basis-full sm:block"
+          class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 sm:block"
         >
           <div
-            class="flex flex-col gap-5 mt-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
+            class="mt-5 flex flex-col gap-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
           >
             <NuxtLink
               to="/diagnostic/diagnostic-dtg"
-              class="flex items-center space-x-2 font-medium text-blue-500 hover:text-blue-700"
+              class="flex items-center space-x-2 font-medium text-diagcity-blue hover:text-diagcity-gray"
               aria-current="page"
             >
               <NuxtImg
                 src="/dtg.png"
                 alt="dtg"
-                class="h-8 mr-2"
+                class="mr-2 h-8"
               />Copropriété</NuxtLink
             >
 
@@ -79,11 +79,11 @@
             >
               <button
                 type="button"
-                class="flex items-center w-full font-medium text-gray-600 hover:text-gray-400 sm:py-4"
+                class="flex w-full items-center font-medium text-gray-600 hover:text-gray-400 sm:py-4"
               >
                 Nos Diagnostics
                 <svg
-                  class="flex-shrink-0 ms-2 size-4"
+                  class="ms-2 size-4 flex-shrink-0"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"

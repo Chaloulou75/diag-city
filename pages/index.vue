@@ -1,6 +1,9 @@
 <script setup></script>
 <template>
   <div>
-    <Hero></Hero>
+    <HeroImage />
+    <div class="my-6">
+      <ReferencesCarousel />
+    </div>
   </div>
 </template>
