@@ -10,7 +10,7 @@
       <div class="relative sm:flex sm:items-center">
         <div class="flex items-center justify-between">
           <NuxtLink to="/" class="flex-none" aria-label="Diag city">
-            <NuxtImg src="/logo-carre-small.png" height="60"
+            <NuxtImg src="/logo-carre-small.png" alt="Diag city" height="60"
           /></NuxtLink>
           <div class="sm:hidden">
             <button

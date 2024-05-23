@@ -1,19 +1,19 @@
 <script setup lang="ts">
 const items = [
-  "/1001-vie-habitat.png",
-  "/ANAXAGO.png",
-  "/APICAP.png",
-  "/ARCHIVESNAT.png",
-  "/DOMAXIS.png",
-  "/FONCIA.png",
-  "/ICF.png",
-  "/iugp.png",
-  "/MOULIN-VERT.png",
-  "/saint-simon.png",
-  "/SSDH.png",
-  "/ICF-SAB.png",
-  "/loiselet-et-daigremont.png",
-  "/pglance.png",
+  { src: "/1001-vie-habitat.png", alt: "1001 Vie Habitat" },
+  { src: "/ANAXAGO.png", alt: "ANAXAGO" },
+  { src: "/APICAP.png", alt: "APICAP" },
+  { src: "/ARCHIVESNAT.png", alt: "Archives Nationales" },
+  { src: "/DOMAXIS.png", alt: "DOMAXIS" },
+  { src: "/FONCIA.png", alt: "FONCIA" },
+  { src: "/ICF.png", alt: "ICF" },
+  { src: "/iugp.png", alt: "IUGP" },
+  { src: "/MOULIN-VERT.png", alt: "Moulin Vert" },
+  { src: "/saint-simon.png", alt: "Saint Simon" },
+  { src: "/SSDH.png", alt: "SSDH" },
+  { src: "/ICF-SAB.png", alt: "ICF SAB" },
+  { src: "/loiselet-et-daigremont.png", alt: "Loiselet et Daigremont" },
+  { src: "/pglance.png", alt: "Pglance" },
 ];
 
 const carouselRef = ref();
@@ -53,6 +53,11 @@ onMounted(() => {
     arrows
     class="mx-auto max-w-4xl rounded bg-white shadow-lg"
   >
-    <NuxtImg :src="item" class="h-auto w-auto" draggable="false" />
+    <NuxtImg
+      :src="item.src"
+      :alt="item.alt"
+      class="h-auto w-auto"
+      draggable="false"
+    />
   </UCarousel>
 </template>
