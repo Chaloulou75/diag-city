@@ -1,4 +1,184 @@
-<script setup></script>
+<script setup>
+const items = [
+  {
+    title: "Copropriété",
+    to: "/diagnostic/diagnostic-dtg",
+    src: "/dtg.png",
+    alt: "dtg",
+  },
+  {
+    title: "Nos Diagnostics",
+    children: [
+      {
+        title: "Pour la vente:",
+        children: [
+          {
+            title: "Le Diagnostic Amiante",
+            to: "/diagnostic/pour-la-vente/diagnostic-amiante",
+            src: "/amiante.png",
+            alt: "amiante",
+          },
+          {
+            title: "Loi Carrez",
+            to: "/diagnostic/pour-la-vente/diagnostic-loi-carrez",
+            src: "/mesurage.png",
+            alt: "boutin",
+          },
+          {
+            title: "Le Diagnostic Termites",
+            to: "/diagnostic/pour-la-vente/diagnostic-termites",
+            src: "/termites.png",
+            alt: "termite",
+          },
+          {
+            title: "Le Diagnostic DPE",
+            to: "/diagnostic/pour-la-vente/diagnostic-dpe",
+            src: "/dpe.png",
+            alt: "dpe",
+          },
+          {
+            title: "Le Diagnostic Electrique",
+            to: "/diagnostic/pour-la-vente/diagnostic-electrique",
+            src: "/elec.png",
+            alt: "electricite",
+          },
+          {
+            title: "Le Diagnostic Gaz",
+            to: "/diagnostic/pour-la-vente/diagnostic-gaz",
+            src: "/gaz.png",
+            alt: "gaz",
+          },
+          {
+            title: "Le Diagnostic Plomb (CREP)",
+            to: "/diagnostic/pour-la-vente/diagnostic-plomb",
+            src: "/crep.png",
+            alt: "plomb",
+          },
+          {
+            title: "Le Diagnostic E.R.P",
+            to: "/diagnostic/pour-la-vente/diagnostic-erp",
+            src: "/erp.png",
+            alt: "assainissement",
+          },
+        ],
+      },
+      {
+        title: "Pour la location:",
+        children: [
+          {
+            title: "Le Diagnostic Amiante (DAPP)",
+            to: "/diagnostic/pour-la-location/diagnostic-amiante",
+            src: "/amiante.png",
+            alt: "amiante",
+          },
+          {
+            title: "Loi Boutin",
+            to: "/diagnostic/pour-la-location/loi-boutin",
+            src: "/mesurage.png",
+            alt: "boutin",
+          },
+          {
+            title: "Le Diagnostic DPE",
+            to: "/diagnostic/pour-la-location/diagnostic-dpe",
+            src: "/dpe.png",
+            alt: "dpe",
+          },
+          {
+            title: "Le Diagnostic Electrique",
+            to: "/diagnostic/pour-la-location/diagnostic-electrique",
+            src: "/elec.png",
+            alt: "electricite",
+          },
+          {
+            title: "Le Diagnostic Gaz",
+            to: "/diagnostic/pour-la-location/diagnostic-gaz",
+            src: "/gaz.png",
+            alt: "gaz",
+          },
+          {
+            title: "Le Diagnostic Plomb (CREP)",
+            to: "/diagnostic/pour-la-location/diagnostic-plomb",
+            src: "/crep.png",
+            alt: "plomb",
+          },
+          {
+            title: "Le Diagnostic E.R.P",
+            to: "/diagnostic/pour-la-location/diagnostic-erp",
+            src: "/erp.png",
+            alt: "assainissement",
+          },
+        ],
+      },
+      {
+        title: "Pour vos travaux:",
+        children: [
+          {
+            title: "Le DPE avant Travaux",
+            to: "/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux",
+            src: "/dpe.png",
+            alt: "dpe",
+          },
+          {
+            title: "Le Diagnostic Amiante avant Travaux/Démolition",
+            to: "/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux",
+            src: "/amiante.png",
+            alt: "amiante",
+          },
+          {
+            title: "CREPP avant Travaux/Démolition",
+            to: "/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux",
+            src: "/crep.png",
+            alt: "crep",
+          },
+          {
+            title: "Termites ou Etat Parasitaire",
+            to: "/diagnostic/pour-vos-travaux/diagnostic-etat-parasitaire",
+            src: "/termites.png",
+            alt: "termite",
+          },
+        ],
+      },
+      {
+        title: "Autres:",
+        children: [
+          {
+            title: "Le Diagnostic D.T.G",
+            to: "/diagnostic/diagnostic-dtg",
+            src: "/dtg.png",
+            alt: "dtg",
+          },
+          {
+            title: "P.P.P.T",
+            to: "/diagnostic/pppt",
+            src: "/pppt.png",
+            alt: "pppt",
+          },
+          {
+            title: "Les Diagnostics Obligatoires",
+            to: "/diagnostic/obligatoires",
+          },
+          {
+            title: "Historique du diagnostic",
+            to: "/diagnostic/historique",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Références",
+    to: "/references",
+  },
+  {
+    title: "Qui sommes-nous?",
+    to: "/presentation",
+  },
+  {
+    title: "Contact",
+    to: "/contact",
+  },
+];
+</script>
 <template>
   <header
     class="z-50 flex w-full flex-wrap bg-white/90 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
