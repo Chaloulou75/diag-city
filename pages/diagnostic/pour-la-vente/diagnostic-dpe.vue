@@ -5,9 +5,8 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic énergétique'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-
-    <!-- Utilité -->
     <div class="p-4">
+      <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
           Utilité du diagnostic énergétique
@@ -39,7 +38,7 @@
       </div>
       <NuxtImg
         src="/img/band-dpe-2.webp"
-        class="mx-auto h-auto w-full md:w-1/4"
+        class="mx-auto h-auto w-full shadow md:w-1/4"
       />
 
       <!-- Obligation -->

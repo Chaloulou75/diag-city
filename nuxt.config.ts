@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   plugins: ["~/plugins/preline.client.ts"],
-  modules: ["@nuxt/image", "@nuxtjs/seo", "@nuxt/ui"],
+  modules: ["@nuxt/image", "@nuxtjs/seo", "@nuxt/ui", "@vite-pwa/nuxt"],
   site: {
     url: "https://diag-city.netlify.com",
     name: "Diag City - Diagnostics pour votre copropriété, Experts en diagnostics Amiante, Plomb, DPE, loi carrez, Assainissement, DTG",

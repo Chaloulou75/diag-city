@@ -1,8 +1,10 @@
 <script setup></script>
 <template>
-  <div class="container mx-auto p-4">
-    <div class="mb-8 text-center">
-      <h1 class="mb-2 text-3xl font-bold uppercase">Contact</h1>
-    </div>
+  <div>
+    <PageHeader
+      :title="'Contact'"
+      :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-70'"
+    />
+    <div class="px-4"></div>
   </div>
 </template>

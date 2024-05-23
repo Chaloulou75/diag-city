@@ -1,8 +1,13 @@
 <script setup></script>
 <template>
-  <div class="container mx-auto p-4">
-    <div class="mb-8 text-center">
-      <h1 class="mb-2 text-3xl font-bold uppercase">Ils nous font confiance</h1>
+  <div>
+    <PageHeader
+      :title="'Références'"
+      :subtitle="'Ils nous font confiance'"
+      :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-70'"
+    />
+    <div class="px-4">
+      <ReferencesCarousel />
     </div>
   </div>
 </template>

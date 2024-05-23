@@ -32,17 +32,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <h2
-    class="my-4 w-full text-center text-xl font-bold text-diagcity-blue md:my-8 md:text-3xl"
-  >
-    Ils nous font confiance:
-  </h2>
   <UCarousel
     ref="carouselRef"
     v-slot="{ item }"
     :items="items"
     :ui="{
-      item: 'basis-full md:basis-1/3 overflow-hidden items-center justify-center py-2',
+      item: 'basis-full md:basis-1/3 overflow-hidden items-center justify-center py-2 px-6',
       container: 'rounded-lg',
     }"
     :prev-button="{
@@ -56,7 +51,7 @@ onMounted(() => {
       class: '-right-12',
     }"
     arrows
-    class="mx-auto max-w-4xl rounded-md shadow-lg"
+    class="mx-auto max-w-4xl rounded bg-white shadow-lg"
   >
     <NuxtImg :src="item" class="h-auto w-auto" draggable="false" />
   </UCarousel>

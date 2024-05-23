@@ -24,7 +24,7 @@ const props = defineProps({
 
         <h2
           v-if="subtitle"
-          class="bg-white bg-clip-text text-xl text-transparent"
+          class="bg-white bg-clip-text text-xl font-semibold text-transparent"
         >
           {{ subtitle }}
         </h2>
