@@ -103,7 +103,9 @@
               >
                 <div class="sm:grid sm:grid-cols-3">
                   <div class="flex flex-col">
-                    <h3 class="px-3 py-2 text-lg font-bold">Pour la vente:</h3>
+                    <h3 class="px-3 py-2 text-lg font-bold text-diagcity-blue">
+                      Pour la vente:
+                    </h3>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-amiante"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
@@ -184,7 +186,7 @@
                   </div>
 
                   <div class="flex flex-col">
-                    <h3 class="px-3 py-2 text-lg font-bold">
+                    <h3 class="px-3 py-2 text-lg font-bold text-diagcity-blue">
                       Pour la location:
                     </h3>
                     <NuxtLink
@@ -255,7 +257,7 @@
                   </div>
 
                   <div class="flex flex-col">
-                    <h3 class="px-3 py-2 text-lg font-bold">
+                    <h3 class="px-3 py-2 text-lg font-bold text-diagcity-blue">
                       Pour vos travaux:
                     </h3>
                     <NuxtLink
@@ -294,7 +296,10 @@
                         class="h-5 md:h-7"
                       />
                     </NuxtLink>
-                    <h3 class="px-3 py-2 text-lg font-bold">Autres:</h3>
+
+                    <h3 class="px-3 py-2 text-lg font-bold text-diagcity-blue">
+                      Autres:
+                    </h3>
                     <NuxtLink
                       to="/diagnostic/diagnostic-dtg"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"

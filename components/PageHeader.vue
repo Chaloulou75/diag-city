@@ -6,7 +6,7 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="relative mb-8 w-full">
+  <div class="relative mb-8 w-full shadow-md">
     <div
       class="flex h-36 flex-col bg-cover bg-center bg-no-repeat md:h-44"
       :class="image"

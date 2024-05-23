@@ -21,21 +21,12 @@
             Contact
           </NuxtLink>
         </li>
+
         <li
           class="relative inline-block pe-8 before:absolute before:end-3 before:top-1/2 before:-translate-y-1/2 before:text-gray-300 before:content-['/'] last:pe-0 last-of-type:before:hidden"
         >
           <NuxtLink
-            to="/contact"
-            class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
-          >
-            Plus
-          </NuxtLink>
-        </li>
-        <li
-          class="relative inline-block pe-8 before:absolute before:end-3 before:top-1/2 before:-translate-y-1/2 before:text-gray-300 before:content-['/'] last:pe-0 last-of-type:before:hidden"
-        >
-          <NuxtLink
-            to="/contact"
+            to="/mentions-legales"
             class="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800"
           >
             Mentions légales

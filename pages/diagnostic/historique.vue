@@ -5,11 +5,11 @@
       :subtitle="'Chronologie des principaux diagnostics immobiliers depuis 1996'"
       :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-70'"
     />
-    <NuxtImg
-      src="/img/band-history.png"
-      class="mx-auto h-auto w-full md:w-2/3"
-    />
     <div class="px-4">
+      <NuxtImg
+        src="/img/band-history.png"
+        class="mx-auto h-auto w-full md:w-2/3"
+      />
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">1996</h2>
         <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">

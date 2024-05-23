@@ -2,7 +2,7 @@
   <div>
     <PageHeader
       :title="'Le diagnostic Amiante'"
-      :subtitle="'L’utilité, les obligations, le déroulement et la validité du diagnostic amiante'"
+      :subtitle="'Utilité, obligations, déroulement et validité du diagnostic amiante'"
       :image="'bg-band-amiante'"
     />
     <div class="px-4">
