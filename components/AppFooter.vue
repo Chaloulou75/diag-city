@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 items-center gap-5 md:grid-cols-3">
       <div>
         <NuxtLink to="/" class="flex-none" aria-label="Diag city">
-          <NuxtImg src="/logo-carre-small.png" height="60"
+          <NuxtImg src="/logo-carre-small.png" alt="Diag city" height="60"
         /></NuxtLink>
       </div>
       <!-- End Col -->
