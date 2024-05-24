@@ -43,20 +43,20 @@ onMounted(() => {
     :prev-button="{
       color: 'gray',
       icon: 'i-heroicons-arrow-left-20-solid',
-      class: '-left-12',
+      class: 'md:-left-12 left:0',
     }"
     :next-button="{
       color: 'gray',
       icon: 'i-heroicons-arrow-right-20-solid',
-      class: '-right-12',
+      class: 'md:-right-12 right:0',
     }"
     arrows
-    class="mx-auto max-w-4xl rounded bg-white shadow-lg"
+    class="max-w-sm mx-auto bg-white rounded shadow-lg md:max-w-4xl"
   >
     <NuxtImg
       :src="item.src"
       :alt="item.alt"
-      class="h-auto w-auto"
+      class="w-auto h-auto"
       draggable="false"
     />
   </UCarousel>
