@@ -30,6 +30,12 @@
         </p>
       </div>
 
+      <NuxtImg
+        src="/img/band-amiante.jpg"
+        alt="amiante"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+      />
+
       <!-- Obligation -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Obligation</h2>

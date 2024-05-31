@@ -8,7 +8,8 @@
     <div class="container px-4 text-justify md:px-12">
       <NuxtImg
         src="/img/band-history.png"
-        class="mx-auto h-auto w-full md:w-2/3"
+        alt="historique"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
       />
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">1996</h2>

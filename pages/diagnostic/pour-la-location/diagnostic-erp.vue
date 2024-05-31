@@ -33,6 +33,12 @@
         </ul>
       </div>
 
+      <!-- <NuxtImg
+        src="/img/band-erp.jpg"
+        alt="erp"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/2"
+      /> -->
+
       <!-- Déroulement de la mission -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>

@@ -31,6 +31,12 @@
         </ul>
       </div>
 
+      <NuxtImg
+        src="/img/band-gaz.jpg"
+        alt="gaz"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+      />
+
       <!-- Obligation -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Obligation</h2>

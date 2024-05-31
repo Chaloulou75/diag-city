@@ -5,7 +5,7 @@
       :subtitle="'Obligations du propriétaire en cas de vente, location ou création de copropriété'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="p-4">
+    <div class="container px-4 text-justify md:px-12">
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">En cas de vente</h2>
         <p class="mb-2 text-gray-700">
@@ -51,6 +51,12 @@
           </li>
         </ul>
       </div>
+
+      <NuxtImg
+        src="/img/band-copro.jpeg"
+        alt="copro"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-full"
+      />
 
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">En cas de location</h2>

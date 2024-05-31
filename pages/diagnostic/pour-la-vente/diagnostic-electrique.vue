@@ -34,6 +34,12 @@
         diagnostic.
       </div>
 
+      <NuxtImg
+        src="/img/band-elec.jpg"
+        alt="electricite"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/2"
+      />
+
       <!-- Obligation -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Obligation</h2>

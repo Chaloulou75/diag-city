@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic énergétique'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="p-4">
+    <div class="container px-4 text-justify md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
@@ -37,6 +37,11 @@
         </ul>
       </div>
 
+      <NuxtImg
+        src="/img/band-dpe-2.webp"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+      />
+
       <!-- Obligation -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
@@ -50,11 +55,6 @@
           résumé sous forme de deux étiquettes hautes en couleur.
         </p>
       </div>
-
-      <NuxtImg
-        src="/img/band-dpe-2.webp"
-        class="mx-auto h-auto w-full shadow md:w-1/4"
-      />
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">

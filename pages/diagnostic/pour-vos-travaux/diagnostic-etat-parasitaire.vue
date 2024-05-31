@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic État parasitaire'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="p-4">
+    <div class="container px-4 text-justify md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
@@ -33,6 +33,12 @@
           l’importance de détecter sa présence en amont !
         </p>
       </div>
+
+      <NuxtImg
+        src="/img/band-termites.jpg"
+        alt="termites"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+      />
 
       <!-- Obligation -->
       <div class="mb-8">

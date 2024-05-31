@@ -18,6 +18,12 @@
         </p>
       </div>
 
+      <NuxtImg
+        src="/img/band-mesure.jpg"
+        alt="mesure"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+      />
+
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
           Surface Habitable et Loi Carrez : Les Différences

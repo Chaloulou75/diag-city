@@ -18,6 +18,12 @@
         </p>
       </div>
 
+      <NuxtImg
+        src="/img/band-plomb.jpg"
+        alt="plomb"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
+      />
+
       <!-- Obligation -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Obligation</h2>

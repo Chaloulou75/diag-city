@@ -27,7 +27,8 @@
 
       <NuxtImg
         src="/img/band-amiante.jpg"
-        class="w-full h-auto mx-auto mb-8 shadow md:w-1/3"
+        alt="amiante"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
       />
 
       <!-- Obligation -->
@@ -53,7 +54,7 @@
       <!-- Déroulement de la mission -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>
             La recherche d'amiante s'effectue visuellement, elle est basée sur
             une liste de matériaux et de produits définis par la réglementation.
@@ -76,7 +77,7 @@
       <!-- Validité -->
       <div>
         <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>
             Durée illimitée si aucune trace d’amiante n'est détectée (résultat
             négatif).
