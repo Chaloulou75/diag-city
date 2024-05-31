@@ -19,7 +19,7 @@
         <p class="leading-relaxed text-gray-700 underline">
           Vous trouverez dans le rapport:
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
           <li>Le classement du bien selon sa consommation énergétique</li>
           <li>
             La quantité d’énergie consommée ou estimée : le GES immobilier
@@ -38,7 +38,7 @@
       </div>
       <NuxtImg
         src="/img/band-dpe-2.webp"
-        class="mx-auto h-auto w-full shadow md:w-1/4"
+        class="w-full h-auto mx-auto shadow md:w-1/4"
       />
 
       <!-- Obligation -->
@@ -58,7 +58,7 @@
       <!-- Déroulement de la mission -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
           <li>
             Le diagnostiqueur certifié se déplace dans le bien à expertiser. Sur
             place, il contrôle et mesure les éléments nécessaires à l’évaluation
@@ -85,7 +85,7 @@
       <!-- Validité -->
       <div>
         <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
           <li>10 ans pour une vente</li>
           <li>10 ans pour une location</li>
         </ul>

@@ -3,9 +3,9 @@
     <PageHeader
       :title="'Le diagnostic gaz'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic gaz'"
-      :image="'bg-band-gaz'"
+      :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="px-4">
+    <div class="container px-4 text-justify md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Utilité du diagnostic gaz</h2>

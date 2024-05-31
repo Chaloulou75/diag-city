@@ -3,9 +3,9 @@
     <PageHeader
       :title="'Le D.T.G.'"
       :subtitle="'Utilité, obligations, déroulement et validité du Diagnostic Technique Global (DTG) pour les copropriétés'"
-      :image="'bg-band-dtg'"
+      :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="px-4">
+    <div class="container px-4 text-justify md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
@@ -28,7 +28,7 @@
         <p class="leading-relaxed text-gray-700">
           Le DTG est obligatoire pour les immeubles :
         </p>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>
             De plus de 10 ans et qui font l'objet d'une mise en copropriété
             (création de la copropriété)
@@ -48,9 +48,9 @@
       <!-- Déroulement de la mission -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>Consultation des documents :</li>
-          <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+          <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
             <li>Le règlement de la copropriété</li>
             <li>
               Un état de la situation du syndicat des copropriétaire au regard
@@ -63,7 +63,7 @@
             Avant de se déplacer nos experts auront besoin des informations
             complémentaires suivantes :
           </li>
-          <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+          <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
             <li>
               L’accès à l’ensemble des parties et espaces communs (codes,
               badges, clés…)
@@ -74,7 +74,7 @@
             <li>L’accès à au moins un logement (DPE, planchers, plafonds)</li>
           </ul>
           <li>Sur place :</li>
-          <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+          <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
             <li>
               Un état apparent des parties communes et des équipements communs
             </li>
@@ -95,7 +95,7 @@
       <!-- Validité -->
       <div>
         <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="pl-8 leading-relaxed text-gray-700 list-disc list-inside">
+        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
           <li>10 ans</li>
         </ul>
       </div>

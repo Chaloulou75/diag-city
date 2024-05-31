@@ -4,9 +4,9 @@
     <PageHeader
       :title="'Le diagnostic Amiante avant travaux/démolition'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic amiante avant travaux/démolition'"
-      :image="'bg-band-amiante'"
+      :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="px-4">
+    <div class="container px-4 text-justify md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
