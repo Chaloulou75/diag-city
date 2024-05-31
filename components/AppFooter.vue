@@ -3,7 +3,7 @@
   <footer class="mx-auto mt-auto w-full max-w-full px-4 py-10 sm:px-6 lg:px-8">
     <!-- Grid -->
     <div class="grid grid-cols-1 items-center gap-5 md:grid-cols-3">
-      <div>
+      <div class="">
         <NuxtLink to="/" class="flex-none" aria-label="Diag city">
           <NuxtImg src="/logo-carre-small.png" alt="Diag city" height="60"
         /></NuxtLink>

@@ -25,6 +25,7 @@
 
       <NuxtImg
         src="/img/band-mesure.jpg"
+        alt="mesure"
         class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
       />
 

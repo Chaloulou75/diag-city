@@ -181,10 +181,10 @@ const items = [
 </script>
 <template>
   <header
-    class="z-50 flex flex-wrap w-full py-4 text-sm bg-white/90 sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
+    class="z-50 flex w-full flex-wrap bg-white/90 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
   >
     <nav
-      class="w-full max-w-full px-4 mx-auto md:px-6 lg:px-8"
+      class="mx-auto w-full max-w-full px-4 md:px-6 lg:px-8"
       aria-label="Global"
     >
       <div class="relative sm:flex sm:items-center">
@@ -195,13 +195,13 @@ const items = [
           <div class="sm:hidden">
             <button
               type="button"
-              class="inline-flex items-center justify-center p-2 text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm hs-collapse-toggle gap-x-2 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
+              class="hs-collapse-toggle inline-flex items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white p-2 text-gray-800 shadow-sm hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
               data-hs-collapse="#navbar-hover-event"
               aria-controls="navbar-hover-event"
               aria-label="Toggle navigation"
             >
               <svg
-                class="flex-shrink-0 size-4 hs-collapse-open:hidden"
+                class="size-4 flex-shrink-0 hs-collapse-open:hidden"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -217,7 +217,7 @@ const items = [
                 <line x1="3" x2="21" y1="18" y2="18" />
               </svg>
               <svg
-                class="flex-shrink-0 hidden size-4 hs-collapse-open:block"
+                class="hidden size-4 flex-shrink-0 hs-collapse-open:block"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -237,10 +237,10 @@ const items = [
 
         <div
           id="navbar-hover-event"
-          class="hidden overflow-hidden transition-all duration-300 hs-collapse grow basis-full sm:block"
+          class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 sm:block"
         >
           <div
-            class="flex flex-col gap-5 mt-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
+            class="mt-5 flex flex-col gap-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
           >
             <NuxtLink
               to="/diagnostic/diagnostic-dtg"
@@ -250,7 +250,7 @@ const items = [
               <NuxtImg
                 src="/dtg.png"
                 alt="dtg"
-                class="h-8 mr-2"
+                class="mr-2 h-8"
               />Copropriété</NuxtLink
             >
 
@@ -259,11 +259,11 @@ const items = [
             >
               <button
                 type="button"
-                class="flex items-center w-full font-medium text-gray-600 hover:text-gray-400 sm:py-4"
+                class="flex w-full items-center font-medium text-diagcity-gray hover:text-diagcity-violet sm:py-4"
               >
                 Nos Diagnostics
                 <svg
-                  class="flex-shrink-0 ms-2 size-4"
+                  class="ms-2 size-4 flex-shrink-0"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -288,7 +288,7 @@ const items = [
                     </h3>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-amiante"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Amiante
                       <NuxtImg
@@ -300,7 +300,7 @@ const items = [
 
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-loi-carrez"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Loi Carrez
                       <NuxtImg
@@ -311,7 +311,7 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-termites"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Termites
                       <NuxtImg
@@ -322,14 +322,14 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-dpe"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic DPE
                       <NuxtImg src="/dpe.png" alt="dpe" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-electrique"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Electrique
                       <NuxtImg
@@ -340,21 +340,21 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-gaz"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Gaz
                       <NuxtImg src="/gaz.png" alt="gaz" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-plomb"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Plomb (CREP)
                       <NuxtImg src="/crep.png" alt="plomb" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-vente/diagnostic-erp"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic E.R.P
                       <NuxtImg
@@ -371,7 +371,7 @@ const items = [
                     </h3>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-amiante"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Amiante (DAPP)
                       <NuxtImg
@@ -382,7 +382,7 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/loi-boutin"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Loi Boutin
                       <NuxtImg
@@ -393,14 +393,14 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-dpe"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic DPE
                       <NuxtImg src="/dpe.png" alt="dpe" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-electrique"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Electrique
                       <NuxtImg
@@ -411,21 +411,21 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-gaz"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Gaz
                       <NuxtImg src="/gaz.png" alt="gaz" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-plomb"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Plomb (CREP)
                       <NuxtImg src="/crep.png" alt="plomb" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-la-location/diagnostic-erp"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic E.R.P
                       <NuxtImg
@@ -442,14 +442,14 @@ const items = [
                     </h3>
                     <NuxtLink
                       to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le DPE avant Travaux
                       <NuxtImg src="/dpe.png" alt="dpe" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic Amiante avant Travaux/Démolition
                       <NuxtImg
@@ -460,14 +460,14 @@ const items = [
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       CREPP avant Travaux/Démolition
                       <NuxtImg src="/crep.png" alt="crep" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pour-vos-travaux/diagnostic-etat-parasitaire"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Termites ou Etat Parasitaire
                       <NuxtImg
@@ -482,27 +482,27 @@ const items = [
                     </h3>
                     <NuxtLink
                       to="/diagnostic/diagnostic-dtg"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Le Diagnostic D.T.G
                       <NuxtImg src="/dtg.png" alt="dtg" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/pppt"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       P.P.P.T
                       <NuxtImg src="/pppt.png" alt="pppt" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/obligatoires"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Les Diagnostics Obligatoires
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/historique"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Historique du diagnostic
                     </NuxtLink>
@@ -513,19 +513,19 @@ const items = [
 
             <NuxtLink
               to="/references"
-              class="font-medium text-gray-600 hover:text-gray-400"
+              class="font-medium text-diagcity-gray hover:text-diagcity-violet"
               >Références</NuxtLink
             >
 
             <NuxtLink
               to="/presentation"
-              class="font-medium text-gray-600 hover:text-gray-400"
+              class="font-medium text-diagcity-gray hover:text-diagcity-violet"
               >Qui sommes-nous?</NuxtLink
             >
 
             <NuxtLink
               to="/contact"
-              class="font-medium text-gray-600 hover:text-gray-400"
+              class="font-medium text-diagcity-gray hover:text-diagcity-violet"
               >Contact</NuxtLink
             >
           </div>
