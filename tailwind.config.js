@@ -21,6 +21,10 @@ export default {
       backgroundImage: {
         bagatelle: "url('public/img/bagatelle.jpeg')",
       },
+      fontFamily: {
+        lugrasimo: ['"Lugrasimo"'],
+        blackops: ['"Black Ops One"', "sans-serif"],
+      },
     },
   },
   plugins: [require("preline/plugin")],
