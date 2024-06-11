@@ -5,7 +5,7 @@
       :subtitle="'Obligations du propriétaire en cas de vente, location ou création de copropriété'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="container px-4 text-justify md:px-12">
+    <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">En cas de vente</h2>
         <p class="mb-2 text-gray-700">

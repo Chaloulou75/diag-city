@@ -1,13 +1,15 @@
 <script setup></script>
 <template>
-  <div class="flex flex-col justify-center w-full mt-8 mb-10 md:mb-20 md:mt-16">
+  <div
+    class="flex flex-col justify-center w-full px-4 mt-8 mb-10 md:mb-20 md:mt-16"
+  >
     <h2
-      class="mb-6 text-2xl font-bold leading-4 tracking-widest text-center uppercase font-blackops text-diagcity-violet md:mb-10 md:text-4xl"
+      class="mb-6 text-2xl font-bold tracking-widest text-center uppercase font-blackops text-diagcity-violet md:mb-10 md:text-4xl"
     >
       10 ans d'expérience à votre service
     </h2>
     <h3
-      class="mb-10 text-xl font-bold leading-4 tracking-widest text-center font-lugrasimo text-diagcity-blue md:mb-16 md:text-3xl"
+      class="mb-10 text-xl font-bold tracking-widest text-center font-lugrasimo text-diagcity-blue md:mb-16 md:text-3xl"
     >
       Réactivité, Efficacité, Transparence
     </h3>

@@ -5,52 +5,24 @@
       :title="'Qui sommes nous?'"
       :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-20'"
     />
-    <div class="hidden px-4">
-      <div>
-        <figure class="p-8 rounded-xl bg-slate-100 md:flex md:p-0">
-          <NuxtImg
-            class="object-cover w-24 h-24 mx-auto rounded-full md:h-auto md:w-48 md:rounded-none"
-            src="/img/jesse.jpeg"
-            alt="jesse salomas"
-          />
-          <div class="pt-6 mx-auto space-y-4 text-center md:p-8 md:text-left">
-            <figcaption class="font-medium justify-self-start">
-              <div class="text-2xl text-sky-500">Jesse Salomas</div>
-              <div class="text-slate-700">Gérant, Diag City</div>
-              <div class="text-slate-600">+33 6 06 64 38 68</div>
-              <div class="text-slate-600">jsalomas@diagcity.fr</div>
-            </figcaption>
-            <ul class="list-disc list-inside">
-              <li class="text-lg">
-                <span class="font-semibold"
-                  >5 années de gérance de DIAG CITY </span
-                >: gestion commerciale et administrative, contrôle qualité et
-                interlocuteur des clients. Analyse et contrôle documentaire -
-                Gestion technique des projets - Gestion commerciale des projets.
-              </li>
-              <li class="text-lg">
-                <span class="font-semibold"
-                  >2 années d’expérience en qualité de co-gérant de la société
-                  HESTIA DIAGNOSTIC à Toulouse.</span
-                >
-              </li>
-              <li class="text-lg">
-                <span class="font-semibold"
-                  >10 années d’expérience en tant que diagnostiqueur chez SERVEX </span
-                >: Diagnostics vente et location tout domaine, Repérage Amiante
-                avant travaux / démolition.
-              </li>
-              <li class="text-lg">
-                <span class="font-semibold"
-                  >5 années de gérance de DIAG CITY </span
-                >: gestion commerciale et administrative, contrôle qualité et
-                interlocuteur des clients. Analyse et contrôle documentaire -
-                Gestion technique des projets - Gestion commerciale des projets.
-              </li>
-            </ul>
-          </div>
-        </figure>
-      </div>
+    <div class="container px-4 mx-auto tracking-wider text-justify md:px-12">
+      <p class="text-lg md:text-xl">
+        <span class="font-semibold">DIAG CITY</span>, c’est le projet de trois
+        amis de longue date, qui se sont unis pour élever une petite structure
+        crée en 2018, pour devenir une référence de fiabilité dans le domaine du
+        Diagnostic Immobilier.
+        <br />
+        Un cahier des charges interne très rigoureux est édité afin de garantir
+        une qualité de travail identique à l’ensemble des interventions par
+        <span class="font-semibold">le Cabinet DIAG CITY</span>. Le tout,
+        bien-sûr, dans une ambiance saine et bienveillante. <br />
+        <span class="font-semibold">Diagnostiqueurs complémentaires</span>
+        <br />
+        En cas d’urgence ou de réalisation de diagnostic urgent, nous serons en
+        mesure de compléter notre équipe de diagnostiqueurs en faisant appel à
+        d’autre experts (plus de 30 techniciens) qui utilisent les mêmes
+        méthodes de travail et avec qui nous avons l’habitude de collaborer.
+      </p>
     </div>
   </div>
 </template>

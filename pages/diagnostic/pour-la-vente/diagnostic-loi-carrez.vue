@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic Loi Carrez'"
       :image="'bg-gradient-to-r from-blue-300 to-diagcity-blue bg-opacity-70'"
     />
-    <div class="container px-4 text-justify md:px-12">
+    <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold">
