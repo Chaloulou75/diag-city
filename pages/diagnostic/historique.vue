@@ -28,7 +28,7 @@
         <ul
           class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
-          <li>Premier diagnostic plomb (ERAP)</li>
+          <li>Premier diagnostic plomb (CREP)</li>
         </ul>
       </div>
 

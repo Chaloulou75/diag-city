@@ -10,7 +10,7 @@ import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <div class="my-8 md:my-16">
         <h3
-          class="my-6 text-center font-lugrasimo text-2xl font-semibold text-diagcity-violet md:mt-8 md:text-3xl"
+          class="my-6 text-center text-2xl font-semibold text-diagcity-violet md:mt-8 md:text-3xl"
         >
           Nous trouver
         </h3>
@@ -20,7 +20,7 @@ import { PhoneIcon, AtSymbolIcon, MapPinIcon } from "@heroicons/vue/24/outline";
       </div>
       <div class="mt-8">
         <h3
-          class="my-6 text-center font-lugrasimo text-2xl font-semibold text-diagcity-violet md:mt-8 md:text-3xl"
+          class="my-6 text-center text-2xl font-semibold text-diagcity-violet md:mt-8 md:text-3xl"
         >
           Nous contacter
         </h3>

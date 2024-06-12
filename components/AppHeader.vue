@@ -242,18 +242,6 @@ const items = [
           <div
             class="mt-5 flex flex-col gap-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
           >
-            <NuxtLink
-              to="/diagnostic/diagnostic-dtg"
-              class="flex items-center space-x-2 font-medium text-diagcity-blue hover:text-gray-400"
-              aria-current="page"
-            >
-              <NuxtImg
-                src="/dtg.png"
-                alt="dtg"
-                class="mr-2 h-8"
-              />Copropriété</NuxtLink
-            >
-
             <div
               class="hs-dropdown [--adaptive:none] [--strategy:static] sm:[--strategy:absolute] sm:[--trigger:hover]"
             >
@@ -444,13 +432,6 @@ const items = [
                       to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
-                      Le DPE avant Travaux
-                      <NuxtImg src="/dpe.png" alt="dpe" class="h-5 md:h-7" />
-                    </NuxtLink>
-                    <NuxtLink
-                      to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
-                      class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
-                    >
                       Le Diagnostic Amiante avant Travaux/Démolition
                       <NuxtImg
                         src="/amiante.png"
@@ -459,7 +440,7 @@ const items = [
                       />
                     </NuxtLink>
                     <NuxtLink
-                      to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
+                      to="/diagnostic/pour-vos-travaux/diagnostic-plomb"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       CREPP avant Travaux/Démolition

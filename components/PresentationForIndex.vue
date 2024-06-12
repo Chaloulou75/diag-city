@@ -6,7 +6,7 @@
     <h2
       class="mb-6 text-center font-blackops text-2xl font-bold uppercase tracking-widest text-diagcity-violet md:mb-10 md:text-4xl"
     >
-      10 ans d'expérience à votre service
+      + de 15 ans d'expérience à votre service
     </h2>
     <h3
       class="mb-10 text-center font-lugrasimo text-xl font-bold tracking-widest text-diagcity-blue md:mb-16 md:text-3xl"
