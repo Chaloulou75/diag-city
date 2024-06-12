@@ -4,7 +4,7 @@
     class="relative flex h-[30rem] flex-col items-center justify-between bg-gray-900 bg-opacity-90 bg-bagatelle bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)] md:flex-row md:justify-evenly"
   >
     <div
-      class="mx-auto mt-auto flex basis-full flex-col items-center justify-center px-4 md:basis-1/2 md:px-8 md:py-8"
+      class="mx-auto flex basis-full flex-col items-center justify-center px-4 md:mt-auto md:basis-1/2 md:px-8 md:py-8"
     >
       <div
         class="block text-center text-5xl font-black tracking-wide text-white md:text-left md:text-7xl"
@@ -17,7 +17,7 @@
       <div class="mt-6 md:mt-8 md:self-start">
         <NuxtLink
           to="/diagnostic/diagnostic-dtg"
-          class="rounded-md bg-diagcity-blue px-3.5 py-2.5 text-xs font-semibold tracking-wide text-white shadow-sm hover:bg-diagcity-violet focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-diagcity-blue md:text-sm"
+          class="rounded-md bg-diagcity-blue px-4 py-3 text-xs font-semibold tracking-wide text-white shadow-sm hover:bg-diagcity-violet focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-diagcity-blue md:text-sm"
         >
           En savoir plus
         </NuxtLink>
