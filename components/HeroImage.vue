@@ -24,7 +24,31 @@
       </div>
     </div>
     <div
-      class="grid h-full grid-cols-1 place-content-end place-items-stretch gap-4 px-4 py-4 md:grid-cols-2 md:gap-8 md:px-8 md:py-8"
+      class="grid h-full grid-cols-1 place-content-end place-items-stretch gap-4 px-4 py-4 md:hidden"
+    >
+      <CardDiagComponent
+        :title="'D.T.G'"
+        :url="'/diagnostic/diagnostic-dtg'"
+        :logo="'/dtg.png'"
+      />
+      <CardDiagComponent
+        :title="'D.T.A'"
+        :url="'/diagnostic/diagnostic-amiante'"
+        :logo="'/amiante.png'"
+      />
+      <CardDiagComponent
+        :title="'D.P.E'"
+        :url="'/diagnostic/pour-la-vente/diagnostic-dpe'"
+        :logo="'/dpe.png'"
+      />
+      <CardDiagComponent
+        :title="'P.P.P.T'"
+        :url="'/diagnostic/pppt'"
+        :logo="'/pppt.png'"
+      />
+    </div>
+    <div
+      class="hidden h-full place-content-end place-items-stretch py-4 md:grid md:grid-cols-2 md:gap-8 md:px-8 md:py-8"
     >
       <CardDiagComponent
         :title="'Diagnostic Technique Global'"

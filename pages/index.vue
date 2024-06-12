@@ -3,7 +3,7 @@
   <div>
     <HeroImage />
     <section
-      class="my-6 w-full bg-gradient-to-br from-diagcity-violet to-diagcity-blue py-4"
+      class="my-8 w-full bg-gradient-to-br from-diagcity-violet to-diagcity-blue py-4 md:my-16"
     >
       <div class="my-6">
         <h2
