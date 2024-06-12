@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div
-    class="mx-auto grid h-full max-w-screen-lg grid-cols-1 place-content-center place-items-center gap-y-4 py-4 md:grid-cols-3 md:gap-10"
+    class="mx-auto grid h-full max-w-screen-lg grid-cols-1 place-content-center place-items-center gap-4 py-4 md:grid-cols-3 md:gap-10"
   >
     <CardDiagComponent
       :title="'Diagnostic Technique Global'"
