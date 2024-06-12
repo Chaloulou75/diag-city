@@ -7,7 +7,12 @@
     >
       <div class="my-6">
         <h2
-          class="my-4 w-full text-center text-xl font-bold tracking-widest text-white md:my-8 md:text-3xl"
+          class="mb-6 text-center font-blackops text-2xl font-bold uppercase tracking-widest text-white md:mb-10 md:text-4xl"
+        >
+          + de 15 ans d'expérience à votre service
+        </h2>
+        <h2
+          class="my-4 w-full text-center text-2xl font-bold tracking-widest text-white md:my-8 md:text-4xl"
         >
           Ils nous font confiance:
         </h2>
@@ -20,7 +25,7 @@
       class="my-6 flex w-full flex-col items-center justify-center md:my-20"
     >
       <h2
-        class="my-4 w-full text-center text-xl font-bold tracking-widest text-diagcity-violet md:my-12 md:text-3xl"
+        class="my-4 w-full text-center text-2xl font-bold tracking-widest text-diagcity-violet md:my-12 md:text-4xl"
       >
         Nos diagnostics:
       </h2>
