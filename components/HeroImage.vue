@@ -24,7 +24,7 @@
       </div>
     </div>
     <div
-      class="grid h-full grid-cols-1 place-content-end place-items-stretch gap-4 px-4 py-4 md:hidden"
+      class="grid h-full grid-cols-2 place-content-end place-items-stretch gap-4 px-4 py-4 md:hidden"
     >
       <CardDiagComponent
         :title="'D.T.G'"
