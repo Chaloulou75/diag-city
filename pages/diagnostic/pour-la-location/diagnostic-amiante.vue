@@ -8,8 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">L’utilité du Diagnostic amiante</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          L’utilité du Diagnostic amiante
+        </h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           L’amiante est un problème sanitaire de 1er ordre. Longtemps utilisé
           dans le bâtiment pour ses excellentes propriétés d‘isolation, il est
           interdit en France depuis 1997 et en Europe depuis 2005.
@@ -33,8 +35,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Que ce soit dans le cadre d'une vente ou d'une location, les
           propriétaires ont l'obligation de réaliser le diagnostic amiante par
           un diagnostiqueur certifié. Le propriétaire qui ne respecte pas cette
@@ -53,8 +55,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             La recherche d'amiante s'effectue visuellement, elle est basée sur
             une liste de matériaux et de produits définis par la réglementation.
@@ -76,8 +82,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Durée illimitée si aucune trace d’amiante n'est détectée (résultat
             négatif).

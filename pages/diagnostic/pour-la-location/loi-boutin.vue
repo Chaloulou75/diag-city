@@ -7,10 +7,10 @@
     />
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du Diagnostic Surface Habitable
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce diagnostic a été mis en place suite à la parution de la Loi Boutin
           2009 dans le but de protéger les locataires et de lutter contre
           l’exclusion. La superficie habitable doit obligatoirement apparaître
@@ -25,10 +25,10 @@
       />
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Surface Habitable et Loi Carrez : Les Différences
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           La surface habitable définie par la Loi Boutin du 25 mars 2009 et la
           superficie privative selon la loi Carrez ne sont pas calculées de la
           même manière et ne peuvent être interchangeables. En votre qualité de
@@ -39,8 +39,8 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Un propriétaire a l’obligation de notifier la superficie habitable du
           bien loué à la signature du bail. Cette obligation concerne les
           locations vides et à usage de résidence principale. Ce diagnostic se
@@ -54,8 +54,12 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la Mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la Mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             La loi Boutin n'oblige pas à avoir recours à un diagnostiqueur pour
             calculer votre superficie habitable. Néanmoins, cela est recommandé.
@@ -76,8 +80,10 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Sans limite de temps. Toutefois, si des travaux ont été réalisés
             depuis le premier diagnostic Loi Boutin, une nouvelle expertise est

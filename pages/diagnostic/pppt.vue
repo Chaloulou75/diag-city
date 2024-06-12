@@ -8,10 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du Projet de Plan Pluriannuel de Travaux (PPPT)
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           La loi Climat et résilience n° 2021-1104 du 22 août 2021 rend
           obligatoire pour toutes les copropriétés (À destination partielle ou
           totale d’habitation) de plus de 15 ans, la réalisation d’un plan
@@ -20,14 +20,16 @@
           bâti, des équipements de l’immeuble et du Diagnostic de Performance
           Énergétique, le PPPT devra faire ressortir :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             <span class="font-semibold"
               >Un listing de l’ensemble des travaux nécessaires à:</span
             >
 
             <ul
-              class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+              class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
             >
               <li>
                 La sauvegarde de l’immeuble, la préservation de la santé et de
@@ -59,12 +61,16 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700 underline">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p
+          class="text-lg leading-relaxed text-diagcity-gray underline md:text-xl"
+        >
           Le Projet de Plan Pluriannuel de Travaux (PPPT) est à réaliser à
           compter des dates suivantes :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Applicables au 1er janvier 2023 : copropriété de + de 200 lots
           </li>
@@ -73,7 +79,7 @@
           </li>
           <li>Applicables au 1er janvier 2025 : copropriété - de 51 lots</li>
         </ul>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           La réalisation d’un PPPT ne peut être confiée qu’à une personne morale
           ou physique possédant des compétences fixées par le décret 2022-663 du
           25 Avril 2022. Le PPPT sera réalisé en cotraitance par l’un de nos
@@ -83,12 +89,18 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
         <div class="mb-4">
-          <h3 class="text-xl font-semibold leading-relaxed text-gray-700">
+          <h3
+            class="text-xl font-semibold leading-relaxed text-diagcity-violet"
+          >
             1. L’étude documentaire (données à fournir par le client) :
           </h3>
-          <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+          <ul
+            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          >
             <li>Année exacte de la construction du bien</li>
             <li>Coordonnées et localisation des habitants</li>
             <li class="underline">
@@ -121,10 +133,14 @@
         </div>
 
         <div class="mb-4">
-          <h3 class="text-xl font-semibold leading-relaxed text-gray-700">
+          <h3
+            class="text-xl font-semibold leading-relaxed text-diagcity-violet"
+          >
             2. Visite et étude du site
           </h3>
-          <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+          <ul
+            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          >
             <li class="font-semibold">
               Visite d’un échantillon d’appartements représentatifs
             </li>
@@ -133,12 +149,12 @@
               IMPERATIVEMENT).
             </p>
             <ul
-              class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+              class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
             >
               <li>
                 Jusqu’à 30 logements :
                 <ul
-                  class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                  class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
                 >
                   <li>1 logement de chaque type (T1, T2, T3…)</li>
                   <li>
@@ -156,7 +172,7 @@
                 Au-delà de 30 logements et en plus des règles précédentes si on
                 a :
                 <ul
-                  class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                  class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
                 >
                   <li>
                     + de 31 à 100 logements : 10% du nombre de logements avec un
@@ -174,7 +190,7 @@
                 >Analyse visuelle du bâti (structure et enveloppe)</span
               >
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   Structure générale dont fondations, planchers hauts des caves,
@@ -204,7 +220,7 @@
                 >Analyse des équipements techniques</span
               >
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   Équipement collectif (local, type de production, énergie,
@@ -223,7 +239,7 @@
                 et des équipements</span
               >
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   Alimentation d’eau froide dont compteurs (général et
@@ -257,7 +273,7 @@
             <li>
               <span class="font-semibold">Analyse du Sous-Sol</span>
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   État général, éclairage, ventilation, caves individuelles.
@@ -270,7 +286,7 @@
                 >Analyse du système de Ventilation</span
               >
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   Ventilation des appartements, conduits ou gaines de
@@ -281,7 +297,7 @@
             <li>
               <span class="font-semibold">Visite des Locaux communs</span>
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>Local ordures ménagères (OM).</li>
                 <li>Vides ordures et gaines.</li>
@@ -291,7 +307,7 @@
             <li>
               <span class="font-semibold">Visite des Espaces extérieurs</span>
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   Espaces verts, cours (dont éclairages) et stationnements
@@ -315,10 +331,12 @@
         </div>
 
         <div class="mb-4">
-          <h3 class="text-xl font-semibold leading-relaxed text-gray-700">
+          <h3
+            class="text-xl font-semibold leading-relaxed text-diagcity-violet"
+          >
             3. Analyse Energétique
           </h3>
-          <p class="leading-relaxed text-gray-700">
+          <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
             L’analyse énergétique est une composante indispensable pour réaliser
             le PPT. <br />
 
@@ -337,10 +355,12 @@
         </div>
 
         <div class="mb-4">
-          <h3 class="text-xl font-semibold leading-relaxed text-gray-700">
+          <h3
+            class="text-xl font-semibold leading-relaxed text-diagcity-violet"
+          >
             4. Etablissement des plans pluriannuels de travaux
           </h3>
-          <p class="leading-relaxed text-gray-700">
+          <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
             Cette mission d’économiste vise à orienter la copropriété vers des
             travaux permettant la sauvegarde de l’immeuble, la préservation de
             la santé et la sécurité des occupants mais aussi la réalisation
@@ -360,7 +380,9 @@
             étape. Les parties privatives ne sont pas concernées par cette
             partie de la mission.
           </p>
-          <ul class="list-inside list-disc pl-4 leading-relaxed text-gray-700">
+          <ul
+            class="list-inside list-disc pl-4 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          >
             <li>Définition des actions par lot technique.</li>
             <li>Classification par degré d’urgence.</li>
             <li>
@@ -373,7 +395,7 @@
             <li>
               2 scénarios énergétiques :
               <ul
-                class="list-inside list-disc pl-4 leading-relaxed text-gray-700"
+                class="list-inside list-disc pl-4 leading-relaxed text-diagcity-gray"
               >
                 <li>
                   Avec 1 scénario "MaPrimeRénov" Copro (gain énergétique de 35%,
@@ -390,8 +412,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Le Plan Pluriannuel de travaux a une validité de 10 ans et doit être
             renouvelé à son échéance.

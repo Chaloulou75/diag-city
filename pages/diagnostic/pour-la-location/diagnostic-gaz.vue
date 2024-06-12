@@ -8,8 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Utilité du diagnostic gaz</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Utilité du diagnostic gaz
+        </h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Selon l’INPES, le monoxyde de carbone est responsable de 6 000
           intoxications par an et de 300 décès. Une installation aux normes peut
           vous sauver la vie.
@@ -23,7 +25,9 @@
           desservis par une installation fixe. Les 4 domaines clés de
           l’installation intérieure de gaz sont les suivants:
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>la tuyauterie fixe</li>
           <li>le raccordement en gaz des appareils</li>
           <li>la ventilation des locaux</li>
@@ -39,8 +43,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Vous devez faire réaliser un Diagnostic Gaz sur les parties privatives
           de votre bien immobilier à usage d’habitation si vous souhaitez le
           vendre ou le louer et qu’il comporte une installation intérieure fixe
@@ -58,8 +62,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Un diagnostiqueur se déplace pour contrôler toutes les installations
             qui se trouvent dans le bien. L’expertise consiste à contrôler
@@ -88,8 +96,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>3 ans pour une vente</li>
           <li>6 ans pour une location</li>
         </ul>

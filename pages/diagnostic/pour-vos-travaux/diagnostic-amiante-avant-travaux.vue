@@ -9,10 +9,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du diagnostic amiante avant travaux/démolition
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           La gestion du risque amiante est une priorité pour tous les
           propriétaires et gestionnaires immobiliers. Selon les autorités
           sanitaires, l’amiante c’est environ 3 000 décès par an en France et
@@ -38,8 +38,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce diagnostic doit être réalisé 1 mois avant chaque opération de
           travaux ou de démolition (totale et/ou partielle). C’est une phase
           préalable avant tout travail de réhabilitation, rénovation, découpage,
@@ -60,8 +60,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Le diagnostiqueur va rechercher TOUTE l’amiante présente dans le
             bâtiment (si démolition) ou dans la partie concernée par les
@@ -77,8 +81,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Pas de limite de temps</li>
         </ul>
       </div>

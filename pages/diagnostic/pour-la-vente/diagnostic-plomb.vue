@@ -8,8 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Utilité du diagnostic plomb</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Utilité du diagnostic plomb
+        </h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce Constat de Risque d’Exposition au Plomb (CREP) a pour objectif de
           protéger les occupants des logements contre le risque d’intoxication
           au plomb. Cette intoxication, appelée saturnisme, est particulièrement
@@ -26,8 +28,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           En cas de vente ou location de tout ou partie d’un immeuble
           d’habitation construit avant le 1er janvier 1949, un constat de risque
           d’exposition au plomb fourni par le vendeur (ou le bailleur lorsqu’il
@@ -54,8 +56,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             La recherche de plomb est effectuée au moyen d’un appareil à
             fluorescence X, qui permet de « radiographier » les éléments sur
@@ -82,8 +88,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>1 an pour une vente</li>
           <li>6 ans pour une location</li>
         </ul>

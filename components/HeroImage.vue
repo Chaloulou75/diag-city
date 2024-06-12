@@ -4,13 +4,13 @@
     class="relative flex h-[30rem] flex-col items-center justify-between bg-gray-900 bg-opacity-90 bg-bagatelle bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)] md:flex-row md:justify-evenly"
   >
     <div
-      class="mx-auto flex basis-full flex-col items-center justify-center px-4 md:basis-1/2 md:px-8 md:py-8"
+      class="mx-auto mt-auto flex basis-full flex-col items-center justify-center px-4 md:basis-1/2 md:px-8 md:py-8"
     >
       <div
         class="block text-center text-5xl font-black tracking-wide text-white md:text-left md:text-7xl"
       >
         <span
-          class="bg-gradient-to-b from-black to-diagcity-blue bg-clip-text text-transparent md:bg-gradient-to-r md:from-gray-50 md:to-white"
+          class="bg-gradient-to-b from-black to-diagcity-blue bg-clip-text text-transparent md:bg-gradient-to-r md:from-white/90 md:to-white"
           >Pour votre Copropriété</span
         >
       </div>
@@ -24,7 +24,7 @@
       </div>
     </div>
     <div
-      class="grid h-full grid-cols-1 place-content-center place-items-stretch gap-4 px-4 py-4 md:grid-cols-2 md:gap-8 md:px-8"
+      class="grid h-full grid-cols-1 place-content-end place-items-stretch gap-4 px-4 py-4 md:grid-cols-2 md:gap-8 md:px-8 md:py-8"
     >
       <CardDiagComponent
         :title="'Diagnostic Technique Global'"

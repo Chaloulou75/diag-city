@@ -8,10 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du diagnostic électrique
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Selon l’INPES, un incendie sur 4 est dû à une installation électrique
           défectueuse.
           <br />
@@ -20,7 +20,9 @@
           personnes. Le diagnostiqueur contrôlera notamment les éléments
           suivants :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Interrupteurs et sectionneurs</li>
           <li>Fusibles, disjoncteurs, dispositifs différentiels</li>
           <li>La prise de terre et les liaisons équipotentielles</li>
@@ -28,10 +30,12 @@
             Les classes de matériels électriques et différents modes de pose
           </li>
         </ul>
-        Il vérifiera également dans les salles d’eau que les distances de
-        protection minimales sont respectées entre les points d’eau et les
-        prises électriques. 87 points de contrôle sont prévus dans ce
-        diagnostic.
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
+          Il vérifiera également dans les salles d’eau que les distances de
+          protection minimales sont respectées entre les points d’eau et les
+          prises électriques. 87 points de contrôle sont prévus dans ce
+          diagnostic.
+        </p>
       </div>
 
       <NuxtImg
@@ -42,8 +46,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           L’état des installations intérieures d’électricité est obligatoire en
           cas de vente d’un bien immobilier à usage d’habitation. Il concerne
           l'ensemble des circuits de toutes tensions et natures de courant
@@ -55,8 +59,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Un diagnostiqueur se déplace pour contrôler toutes les installations
             qui se trouvent dans le bien. L’expertise consiste à contrôler
@@ -85,8 +93,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>3 ans pour une vente</li>
           <li>6 ans pour une location</li>
         </ul>

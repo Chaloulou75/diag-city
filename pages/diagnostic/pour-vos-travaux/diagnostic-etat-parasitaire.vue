@@ -8,16 +8,18 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du diagnostic État parasitaire
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           L’objectif de notre mission est de repérer la présence ou des traces
           d’agents de dégradation biologique des bois mis en œuvre dans un
           immeuble bâti. Notre diagnostiqueur recherche par un examen visuel et
           non-destructif :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             les insectes à larves xylophages (capricornes des maisons, petites
             et grosses vrillettes, lyctus...)
@@ -25,7 +27,7 @@
           <li>les champignons lignivores (dont la mérule)</li>
           <li>les termites souterrains</li>
         </ul>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           En France, la mérule est le champignon lignivore le plus souvent
           rencontré. Elle est capable de dégrader rapidement et considérablement
           un immeuble en s’attaquant aux planchers ou à la charpente. S’en
@@ -42,8 +44,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce diagnostic n’est régi par aucune obligation législative ou
           réglementaire. Cependant, il est fréquent que votre étude notariale
           l’exige si vous souhaitez vendre votre bien et s’il est situé dans une
@@ -52,7 +54,7 @@
           de vente votre rapport « État parasitaire » afin de prouver que vous
           êtes de bonne foi et qu’il n’y a pas de vice caché.
         </p>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           La présence de mérule est considérée comme un vice caché : il
           appartient au vendeur d’en informer l’acquéreur !
         </p>
@@ -60,8 +62,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Ces parasites vivent le plus souvent cachés, dans les bois et murs
             humides ainsi que tous les espaces humides, sombres et non-ventilés
@@ -75,8 +81,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>6 mois</li>
         </ul>
       </div>

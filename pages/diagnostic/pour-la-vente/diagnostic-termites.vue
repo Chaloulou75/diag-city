@@ -8,8 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Utilité du diagnostic termites</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Utilité du diagnostic termites
+        </h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Les termites, que l’on appelle également fourmis blanches, sont des
           insectes vivants en colonies. Dites xylophages, les termites se
           nourrissent de bois et de fragments de feuille.
@@ -33,8 +35,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Depuis le 8 juin 1999, le diagnostic termites est obligatoire pour
           toute vente d’un bien immobilier localisé dans l’une des zones à
           risque définies par arrêté préfectoral.
@@ -56,8 +58,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Le diagnostic termites consiste à chercher dans un immeuble
             l’existence des termites et des autres insectes xylophages et les
@@ -82,8 +88,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>6 mois pour une vente</li>
         </ul>
       </div>

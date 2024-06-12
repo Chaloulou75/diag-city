@@ -76,7 +76,7 @@ const currentYear = ref(new Date().getFullYear());
         </div>
 
         <p class="text-xs">
-          @{{ currentYear }} diag-city.com. Tous droits réservés.
+          @{{ currentYear }} www.diag-city.fr. Tous droits réservés.
         </p>
       </div>
       <!-- End Social Brands -->

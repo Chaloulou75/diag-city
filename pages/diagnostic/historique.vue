@@ -12,8 +12,10 @@
         class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
       />
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">1996</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">1996</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Superficie de loi Carrez + repérage des calorifugeage et flocages
             (en amiante)
@@ -22,28 +24,36 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">1998</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">1998</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Premier diagnostic plomb (ERAP)</li>
         </ul>
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">1999</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">1999</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Diagnostic état parasitaire, selon la zone</li>
         </ul>
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">2017</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">2017</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Diagnostic Technique Global</li>
         </ul>
       </div>
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">2021</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">2021</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Nouveau DPE (nouvelle méthode de calcul, opposabilité, validité des
             anciens DPE réduite)
@@ -52,15 +62,19 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">2023</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">2023</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Projet de Plan Pluriannuel de Travaux</li>
         </ul>
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Évolution des diagnostics</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Évolution des diagnostics
+        </h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Comme on peut le voir, les diagnostics visent à la protection de
           l'acquéreur et du locataire. Ils se sont développés dans le temps, se
           sont aussi multipliés et ont gagné en technicité. En évolution

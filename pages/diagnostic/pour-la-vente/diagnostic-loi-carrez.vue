@@ -8,10 +8,10 @@
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du diagnostic Loi Carrez
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce diagnostic a été mis en place suite à la parution de la Loi Carrez
           dans le but de protéger l’acquéreur par l’obligation de mentionner la
           superficie privative du bien immobilier. L’attestation de superficie
@@ -31,8 +31,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le mesurage Loi Carrez est une obligation du vendeur à effectuer lors
           de la vente d’un bien immobilier situé dans une copropriété. Le but du
           mesurage Loi Carrez est de préciser la surface réelle des parties
@@ -51,8 +51,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             À l’aide d'un laser mètre, le diagnostiqueur mesure très précisément
             la superficie Carrez. La superficie concernée est celle des
@@ -78,8 +82,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Sans limite de temps. Toutefois, si des travaux ont été réalisés
             depuis le premier diagnostic Loi Carrez, une nouvelle expertise est

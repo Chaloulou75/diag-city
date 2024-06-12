@@ -1,6 +1,7 @@
 <template>
   <NuxtLayout>
     <NuxtPage />
+    <LazyPhone />
   </NuxtLayout>
 </template>
 <style>

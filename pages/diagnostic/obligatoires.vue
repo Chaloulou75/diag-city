@@ -7,14 +7,18 @@
     />
     <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">En cas de vente</h2>
-        <p class="mb-2 text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          En cas de vente
+        </h2>
+        <p class="mb-2 text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le vendeur a une obligation de fournir au futur acquéreur une
           expertise de diagnostic immobilier dès la signature du compromis de
           vente. Ces diagnostics obligatoires sont destinés à la protection de
           l’acquéreur et du vendeur :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Diagnostic immobilier amiante, pour un permis de construire délivré
             avant le 1 juillet 1997
@@ -59,14 +63,18 @@
       />
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">En cas de location</h2>
-        <p class="mb-2 text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          En cas de location
+        </h2>
+        <p class="mb-2 text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le loueur a une obligation de fournir au futur locataire une expertise
           de diagnostic immobilier dès la signature du bail de location. Ces
           diagnostics obligatoires sont destinés à la protection du loueur et du
           locataire :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Diagnostic plomb, pour les immeubles datant d’avant le 1er janvier
             1949, il est obligatoire depuis d’août 2008
@@ -100,16 +108,18 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           En cas de création de copropriété
         </h2>
-        <p class="mb-2 text-gray-700">
+        <p class="mb-2 text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le vendeur a une obligation de fournir au futur acquéreur une
           expertise de diagnostic immobilier des parties communes dès la
           signature du compromis de vente. Ces diagnostics obligatoires sont
           destinés à la protection de l’acquéreur et du vendeur :
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Dossier Technique Amiante (DTA), pour un permis de construire
             délivré avant le 1 juillet 1997

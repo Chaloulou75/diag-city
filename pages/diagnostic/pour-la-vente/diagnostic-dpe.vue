@@ -5,21 +5,25 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic énergétique'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="p-4">
+    <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du diagnostic énergétique
         </h2>
-        <p class="leading-relaxed text-gray-700">
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           L’Etat français a mis en place le Plan Climat qui a pour objectif de
           diviser par 4 nos émissions de CO2 à l’horizon 2050. Le Diagnostic de
           Performance Energétique est l’un des dispositifs de ce Plan Climat.
         </p>
-        <p class="leading-relaxed text-gray-700 underline">
+        <p
+          class="text-lg leading-relaxed text-diagcity-gray underline md:text-xl"
+        >
           Vous trouverez dans le rapport:
         </p>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>Le classement du bien selon sa consommation énergétique</li>
           <li>
             La quantité d’énergie consommée ou estimée : le GES immobilier
@@ -44,8 +48,8 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Obligation</h2>
-        <p class="leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le Diagnostic de Performance Energétique accompagne obligatoirement
           depuis le 1er novembre 2006 tout acte de vente. Depuis le 1er juillet
           2007, le DPE doit également être fourni par le propriétaire d’un
@@ -58,8 +62,12 @@
 
       <!-- Déroulement de la mission -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold">Déroulement de la mission</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Déroulement de la mission
+        </h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>
             Le diagnostiqueur certifié se déplace dans le bien à expertiser. Sur
             place, il contrôle et mesure les éléments nécessaires à l’évaluation
@@ -85,8 +93,10 @@
 
       <!-- Validité -->
       <div>
-        <h2 class="mb-2 text-2xl font-bold">Validité</h2>
-        <ul class="list-inside list-disc pl-8 leading-relaxed text-gray-700">
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
+        <ul
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+        >
           <li>10 ans pour une vente</li>
           <li>10 ans pour une location</li>
         </ul>
