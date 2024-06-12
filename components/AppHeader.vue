@@ -492,11 +492,11 @@ const items = [
               </div>
             </div>
 
-            <NuxtLink
+            <!-- <NuxtLink
               to="/references"
               class="font-medium text-diagcity-gray hover:text-diagcity-violet"
               >Références</NuxtLink
-            >
+            > -->
 
             <NuxtLink
               to="/presentation"
