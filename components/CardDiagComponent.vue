@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="group flex h-auto max-w-xs items-center justify-between space-x-3 place-self-stretch rounded-xl bg-white/85 px-4 py-2.5 shadow ring ring-diagcity-blue duration-200 hover:bg-white hover:ring-diagcity-violet md:py-4"
+    class="group flex h-auto max-w-xs items-center justify-between space-x-3 place-self-stretch rounded-xl bg-white/85 px-4 py-3 shadow ring ring-diagcity-blue duration-200 hover:bg-white hover:ring-diagcity-violet md:py-4"
   >
     <NuxtImg :src="logo" :alt="title" class="h-5 w-auto md:h-7" />
     <NuxtLink

@@ -432,7 +432,7 @@ const items = [
                       to="/diagnostic/pour-vos-travaux/diagnostic-amiante-avant-travaux"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
-                      Le Diagnostic Amiante avant Travaux/Démolition
+                      Le Diagnostic Amiante avant Travaux / Démolition
                       <NuxtImg
                         src="/amiante.png"
                         alt="amiante"
@@ -443,7 +443,7 @@ const items = [
                       to="/diagnostic/pour-vos-travaux/diagnostic-plomb"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
-                      CREPP avant Travaux/Démolition
+                      CREPP avant Travaux / Démolition
                       <NuxtImg src="/crep.png" alt="crep" class="h-5 md:h-7" />
                     </NuxtLink>
                     <NuxtLink

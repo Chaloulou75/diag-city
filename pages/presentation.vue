@@ -24,6 +24,19 @@
           >. Le tout, bien-sûr, dans une ambiance saine et bienveillante.
         </p>
         <h2 class="text-xl font-semibold text-diagcity-violet md:text-2xl">
+          Equipements
+        </h2>
+        <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
+          Nos prestations incluent l’ensemble des équipements nécessaires à
+          l’achèvement de la mission. <br />
+          Le cabinet DIAG CITY possède le matériel et les qualifications pour le
+          travail en hauteur ou d’accès (échelle de 3m), et l’outillage
+          spécifique à la réalisation des PPPT et des diagnostics réglementaires
+          (poinçon (termites/état parasitaire) EPI amiante, laser metre Leica,
+          vitromettre, humidimettre, tablette PC surface pro, analyseur pour la
+          présence de plomb ainsi qu’une flotte de vehicules…).
+        </p>
+        <h2 class="text-xl font-semibold text-diagcity-violet md:text-2xl">
           Diagnostiqueurs complémentaires
         </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
