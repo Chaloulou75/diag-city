@@ -8,7 +8,7 @@ import { PhoneIcon } from "@heroicons/vue/24/outline";
     <div
       class="flex items-center justify-center rounded-full bg-diagcity-violet/85 p-4 group-hover:bg-diagcity-violet"
     >
-      <a href="tel:+33183620607"
+      <a href="tel:+33698203451"
         ><span class="sr-only">Téléphone</span
         ><PhoneIcon class="h-5 w-5 text-white"
       /></a>

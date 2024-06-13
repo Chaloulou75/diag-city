@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic de surface habitable'"
       :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
     />
-    <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du Diagnostic Surface Habitable

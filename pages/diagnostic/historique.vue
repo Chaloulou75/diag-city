@@ -5,7 +5,7 @@
       :subtitle="'Chronologie des principaux diagnostics immobiliers depuis 1996'"
       :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-70'"
     />
-    <div class="container mx-auto px-4 text-justify tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <NuxtImg
         src="/img/band-history.png"
         alt="historique"
