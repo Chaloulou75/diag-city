@@ -9,20 +9,22 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="group flex h-auto max-w-xs items-center justify-between space-x-3 place-self-stretch rounded-xl bg-white/85 px-4 py-3 shadow ring ring-diagcity-blue duration-200 hover:bg-white hover:ring-diagcity-violet md:py-4"
+    class="flex items-center justify-center h-auto max-w-xs px-4 py-3 space-x-3 duration-200 shadow group place-self-stretch rounded-xl bg-white/85 ring ring-diagcity-blue hover:bg-white hover:ring-diagcity-violet md:py-4"
   >
-    <NuxtImg :src="logo" :alt="title" class="h-5 w-auto md:h-7" />
-    <NuxtLink
-      :to="url"
-      class="flex items-center justify-between space-x-2 md:space-x-3"
-    >
+    <NuxtImg
+      v-if="logo"
+      :src="logo"
+      :alt="title"
+      class="w-auto h-5 ml-2 md:h-7"
+    />
+    <NuxtLink v-if="url" :to="url" class="flex items-center justify-center">
       <span
         class="text-sm font-semibold text-gray-900 duration-200 group-hover:translate-x-1 group-hover:text-diagcity-blue group-hover:underline"
         >{{ title }}</span
       >
-      <ArrowRightIcon
-        class="h-4 w-4 fill-slate-500 duration-200 group-hover:translate-x-1 group-hover:fill-slate-600"
-      />
+      <!-- <ArrowRightIcon
+        class="w-4 h-4 duration-200 fill-slate-500 group-hover:translate-x-1 group-hover:fill-slate-600"
+      /> -->
     </NuxtLink>
   </div>
 </template>

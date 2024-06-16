@@ -3,7 +3,7 @@
     <PageHeader
       :title="'Le diagnostic État parasitaire'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic État parasitaire'"
-      :image="'bg-gradient-to-r from-cyan-500 to-diagcity-violet bg-opacity-70'"
+      :image="'bg-diagcity-blue bg-opacity-70'"
     />
     <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
