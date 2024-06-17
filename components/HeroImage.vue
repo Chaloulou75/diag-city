@@ -23,6 +23,7 @@
         </NuxtLink>
       </div> -->
     </div>
+    <!-- mobile -->
     <div
       class="grid h-full grid-cols-2 gap-4 px-4 py-4 place-content-end place-items-stretch md:hidden"
     >
@@ -38,6 +39,7 @@
       />
       <CardDiagComponent :title="'P.P.P.T'" :url="'/diagnostic/pppt'" />
     </div>
+    <!-- desktop -->
     <div
       class="hidden h-full py-4 place-content-end place-items-stretch md:grid md:grid-cols-2 md:gap-8 md:px-8 md:py-8"
     >

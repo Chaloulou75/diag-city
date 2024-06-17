@@ -65,7 +65,7 @@ import {
           <LazyGoogleMap />
         </div>
       </div>
-      <!-- <GoogleReviews /> -->
+      <div class="mt-8"><GoogleReviews /></div>
     </div>
   </div>
 </template>

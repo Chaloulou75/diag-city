@@ -3,6 +3,11 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
   },
+  runtimeConfig: {
+    public: {
+      googleApiKey: process.env.NUXT_GOOGLE_API_KEY,
+    },
+  },
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
   postcss: {

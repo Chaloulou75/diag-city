@@ -17,6 +17,7 @@
 
         <ReferencesCarousel />
       </div>
+      <GoogleReviews />
     </section>
     <!-- <PresentationForIndex /> -->
     <section
