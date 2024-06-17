@@ -38,14 +38,16 @@ onMounted(fetchReviews);
     </h2>
     <div class="mb-6">
       <p v-if="rating" class="text-lg font-medium text-diagcity-gray">
-        <span class="text-xl font-semibold text-green-500">
+        <span class="text-xl font-semibold text-yellow-500">
           {{ rating }} / 5</span
         >
         sur {{ userRatingsTotal }} avis.
       </p>
       <p v-else class="text-lg text-gray-500">Aucune note disponible.</p>
     </div>
-    <h3 class="mb-4 text-xl font-semibold text-center text-diagcity-violet">
+    <h3
+      class="mb-4 text-lg font-semibold text-center text-diagcity-violet md:text-xl"
+    >
       Derniers avis
     </h3>
     <ul v-if="reviews.length > 0" class="space-y-4">

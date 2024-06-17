@@ -51,7 +51,7 @@ onMounted(() => {
       class: 'md:-right-12 right:0',
     }"
     arrows
-    class="max-w-sm mx-auto bg-white rounded shadow-lg md:max-w-4xl"
+    class="max-w-full mx-auto bg-white rounded shadow-lg md:max-w-4xl"
   >
     <NuxtImg
       :src="item.src"
