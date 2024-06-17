@@ -37,7 +37,10 @@ onMounted(fetchReviews);
       Avis Google
     </h2>
     <div class="mb-6">
-      <p v-if="rating" class="text-lg font-medium text-diagcity-gray">
+      <p
+        v-if="rating"
+        class="text-lg font-medium text-center text-diagcity-gray"
+      >
         <span class="text-xl font-semibold text-yellow-500">
           {{ rating }} / 5</span
         >
