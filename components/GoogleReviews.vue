@@ -60,11 +60,13 @@ onMounted(fetchReviews);
           class="w-12 h-12 mr-4 rounded-full"
         />
         <div>
-          <div class="flex items-center mb-2">
+          <div
+            class="flex flex-col items-start mb-2 md:flex-row md:items-center"
+          >
             <p class="text-lg font-semibold text-diagcity-gray">
               {{ review.author_name }}
             </p>
-            <span class="flex items-center ml-2 space-x-1 text-yellow-500">
+            <span class="flex items-center space-x-1 text-yellow-500 md:ml-2">
               <svg
                 v-for="n in 5"
                 :key="n"
@@ -82,7 +84,7 @@ onMounted(fetchReviews);
                 />
               </svg>
             </span>
-            <span class="ml-2 font-medium">{{
+            <span class="mt-1 text-sm font-normal md:ml-2 md:mt-0">{{
               review.relative_time_description
             }}</span>
           </div>
