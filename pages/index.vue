@@ -23,10 +23,10 @@
     </section>
     <!-- <PresentationForIndex /> -->
     <section
-      class="flex flex-col items-center justify-center w-full my-6 md:my-20"
+      class="flex flex-col items-center justify-center w-full my-6 md:mb-12"
     >
       <h2
-        class="w-full my-4 text-2xl font-bold tracking-widest text-center text-diagcity-violet md:my-12 md:text-4xl"
+        class="w-full mb-4 text-2xl font-bold tracking-widest text-center text-diagcity-violet md:mb-10 md:text-4xl"
       >
         Nos diagnostics:
       </h2>
