@@ -19,7 +19,7 @@
 
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Pour cela, nous vous garantissons des intervention justifiées et
-          rapides, à des prix honnétes, des technitiens certifiés et compétants,
+          rapides, à des prix honnétes, des technitiens certifiés et compétents,
           des conseils avisés et des rapports clairs et lisibles.
         </p>
         <h2 class="text-xl font-semibold text-diagcity-violet md:text-2xl">
