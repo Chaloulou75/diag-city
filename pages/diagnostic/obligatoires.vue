@@ -5,7 +5,7 @@
       :subtitle="'Obligations du propriétaire en cas de vente, location ou création de copropriété'"
       :image="'bg-diagcity-blue bg-opacity-70'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           En cas de vente
@@ -17,7 +17,7 @@
           l’acquéreur et du vendeur :
         </p>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Diagnostic immobilier amiante, pour un permis de construire délivré
@@ -57,9 +57,9 @@
       </div>
 
       <NuxtImg
-        src="/img/band-copro.jpeg"
-        alt="copro"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-full"
+        src="/img/vente.jpg"
+        alt="vente copro"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-full"
       />
 
       <div class="mb-8">
@@ -73,7 +73,7 @@
           locataire :
         </p>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Diagnostic plomb, pour les immeubles datant d’avant le 1er janvier
@@ -118,7 +118,7 @@
           destinés à la protection de l’acquéreur et du vendeur :
         </p>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Dossier Technique Amiante (DTA), pour un permis de construire

@@ -5,23 +5,22 @@
       :title="'Qui sommes nous?'"
       :image="'bg-gradient-to-r from-blue-500 to-diagcity-blue bg-opacity-20'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <div class="space-y-6">
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
+          La société
           <span class="font-semibold uppercase text-diagcity-violet"
             >DIAG CITY</span
-          >, c’est le projet de trois amis de longue date, qui se sont unis pour
-          élever une petite structure crée en 2018, pour devenir une référence
-          de fiabilité dans le domaine du Diagnostic Immobilier.
+          >
+          est la concretisation du partenariat efficace et durable pour les
+          copropriétés, elle s’engage depuis ses débuts à faire de votre
+          satisfaction sa priorité.
         </p>
 
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
-          Un cahier des charges interne très rigoureux est édité afin de
-          garantir une qualité de travail identique à l’ensemble des
-          interventions par
-          <span class="font-semibold text-diagcity-violet"
-            >le Cabinet DIAG CITY</span
-          >. Le tout, bien-sûr, dans une ambiance saine et bienveillante.
+          Pour cela, nous vous garantissons des intervention justifiées et
+          rapides, à des prix honnétes, des technitiens certifiés et compétants,
+          des conseils avisés et des rapports clairs et lisibles.
         </p>
         <h2 class="text-xl font-semibold text-diagcity-violet md:text-2xl">
           Equipements

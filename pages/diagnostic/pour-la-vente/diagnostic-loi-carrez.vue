@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic Loi Carrez'"
       :image="'bg-gradient-to-r from-blue-300 to-diagcity-blue bg-opacity-70'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -24,9 +24,9 @@
       </div>
 
       <NuxtImg
-        src="/img/band-mesure.jpg"
-        alt="mesure"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+        src="/img/carrez.jpeg"
+        alt="loi carrez"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-2/3"
       />
 
       <!-- Obligation -->
@@ -55,7 +55,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             À l’aide d'un laser mètre, le diagnostiqueur mesure très précisément
@@ -84,7 +84,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Sans limite de temps. Toutefois, si des travaux ont été réalisés
