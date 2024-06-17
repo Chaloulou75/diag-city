@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div
-    class="relative flex h-[30rem] flex-col items-center justify-between bg-gray-900 bg-opacity-90 bg-bagatelle bg-cover bg-center bg-no-repeat md:h-[calc(100vh-106px)] md:flex-row md:justify-evenly"
+    class="relative flex h-[30rem] flex-col items-center justify-between bg-gray-900 bg-opacity-90 bg-bagatelle bg-cover bg-center bg-no-repeat md:h-screen md:max-h-screen md:min-h-screen md:flex-row md:justify-evenly"
   >
     <div
       class="flex flex-col items-center justify-center px-4 mx-auto basis-full md:mt-auto md:basis-1/2 md:px-8 md:pb-16 md:pt-8"

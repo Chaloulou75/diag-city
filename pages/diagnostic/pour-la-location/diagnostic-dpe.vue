@@ -3,9 +3,9 @@
     <PageHeader
       :title="'Le diagnostic DPE'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic énergétique'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -17,12 +17,12 @@
           Performance Energétique est l’un des dispositifs de ce Plan Climat.
         </p>
         <p
-          class="text-lg leading-relaxed text-diagcity-gray underline md:text-xl"
+          class="text-lg leading-relaxed underline text-diagcity-gray md:text-xl"
         >
           Vous trouverez dans le rapport:
         </p>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>Le classement du bien selon sa consommation énergétique</li>
           <li>
@@ -43,7 +43,7 @@
 
       <NuxtImg
         src="/img/band-dpe-2.webp"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/3"
       />
 
       <!-- Obligation -->
@@ -66,7 +66,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Le diagnostiqueur certifié se déplace dans le bien à expertiser. Sur
@@ -95,7 +95,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>10 ans pour une vente</li>
           <li>10 ans pour une location</li>

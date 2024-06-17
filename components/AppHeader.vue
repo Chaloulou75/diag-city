@@ -1,4 +1,11 @@
 <script setup>
+import {
+  AcademicCapIcon,
+  ExclamationTriangleIcon,
+} from "@heroicons/vue/24/solid";
+const props = defineProps({
+  background: String,
+});
 const items = [
   {
     title: "Copropriété",
@@ -181,10 +188,11 @@ const items = [
 </script>
 <template>
   <header
-    class="z-50 flex w-full flex-wrap bg-white/90 py-4 text-sm sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
+    class="z-50 flex flex-wrap w-full py-4 text-sm bg-white sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
+    :class="background ? background : 'bg-opacity-90'"
   >
     <nav
-      class="mx-auto w-full max-w-full px-4 md:px-6 lg:px-8"
+      class="w-full max-w-full px-4 mx-auto md:px-6 lg:px-8"
       aria-label="Global"
     >
       <div class="relative sm:flex sm:items-center">
@@ -195,13 +203,13 @@ const items = [
           <div class="sm:hidden">
             <button
               type="button"
-              class="hs-collapse-toggle inline-flex items-center justify-center gap-x-2 rounded-lg border border-gray-200 bg-white p-2 text-gray-800 shadow-sm hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
+              class="inline-flex items-center justify-center p-2 text-gray-800 bg-white border border-gray-200 rounded-lg shadow-sm hs-collapse-toggle gap-x-2 hover:bg-gray-50 disabled:pointer-events-none disabled:opacity-50"
               data-hs-collapse="#navbar-hover-event"
               aria-controls="navbar-hover-event"
               aria-label="Toggle navigation"
             >
               <svg
-                class="size-4 flex-shrink-0 hs-collapse-open:hidden"
+                class="flex-shrink-0 size-4 hs-collapse-open:hidden"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -217,7 +225,7 @@ const items = [
                 <line x1="3" x2="21" y1="18" y2="18" />
               </svg>
               <svg
-                class="hidden size-4 flex-shrink-0 hs-collapse-open:block"
+                class="flex-shrink-0 hidden size-4 hs-collapse-open:block"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -237,21 +245,21 @@ const items = [
 
         <div
           id="navbar-hover-event"
-          class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 sm:block"
+          class="hidden overflow-hidden transition-all duration-300 hs-collapse grow basis-full sm:block"
         >
           <div
-            class="mt-5 flex flex-col gap-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
+            class="flex flex-col gap-5 mt-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:ps-5"
           >
             <div
               class="hs-dropdown [--adaptive:none] [--strategy:static] sm:[--strategy:absolute] sm:[--trigger:hover]"
             >
               <button
                 type="button"
-                class="flex w-full items-center font-medium text-diagcity-gray hover:text-diagcity-violet sm:py-4"
+                class="flex items-center w-full font-medium text-diagcity-gray hover:text-diagcity-violet sm:py-4"
               >
                 Nos Diagnostics
                 <svg
-                  class="ms-2 size-4 flex-shrink-0"
+                  class="flex-shrink-0 ms-2 size-4"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -480,12 +488,14 @@ const items = [
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Les Diagnostics Obligatoires
+                      <ExclamationTriangleIcon class="w-6 h-6 text-red-500" />
                     </NuxtLink>
                     <NuxtLink
                       to="/diagnostic/historique"
                       class="flex items-center gap-x-3.5 rounded-lg px-3 py-2 text-sm text-diagcity-gray hover:bg-gray-100 hover:text-diagcity-violet focus:ring-2 focus:ring-blue-500"
                     >
                       Historique du diagnostic
+                      <AcademicCapIcon class="w-6 h-6 text-diagcity-blue" />
                     </NuxtLink>
                   </div>
                 </div>

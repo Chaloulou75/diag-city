@@ -3,7 +3,7 @@
     <PageHeader
       :title="'Le diagnostic Loi Carrez'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic Loi Carrez'"
-      :image="'bg-gradient-to-r from-blue-300 to-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
     <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->

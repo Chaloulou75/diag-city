@@ -1,8 +1,12 @@
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "custom",
+});
+</script>
 <template>
   <div>
     <HeroImage />
-    <section class="w-full py-4 my-8 bg-diagcity-blue/70 md:my-16">
+    <section class="w-full py-4 my-8 bg-diagcity-blue md:my-16">
       <div class="px-2 my-6">
         <h2
           class="mb-6 text-2xl font-bold tracking-widest text-center text-white uppercase md:mb-10 md:text-4xl"

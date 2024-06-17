@@ -3,7 +3,7 @@
     <PageHeader
       :title="'Le D.T.G.'"
       :subtitle="'Utilité, obligations, déroulement et validité du Diagnostic Technique Global (DTG) pour les copropriétés'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
     <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->

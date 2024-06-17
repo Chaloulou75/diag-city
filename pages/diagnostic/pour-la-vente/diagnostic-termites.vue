@@ -3,7 +3,7 @@
     <PageHeader
       :title="'Le diagnostic termites'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic termites'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
     <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->

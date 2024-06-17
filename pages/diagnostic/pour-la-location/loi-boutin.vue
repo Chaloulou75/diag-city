@@ -3,7 +3,7 @@
     <PageHeader
       :title="'Diagnostic Surface Habitable (Loi Boutin)'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic de surface habitable'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue '"
     />
     <div class="container px-4 mx-auto tracking-wider md:px-12">
       <div class="mb-8">

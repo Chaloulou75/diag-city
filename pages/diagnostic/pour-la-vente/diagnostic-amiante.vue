@@ -3,9 +3,9 @@
     <PageHeader
       :title="'Le diagnostic Amiante'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic amiante'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -30,7 +30,7 @@
       <NuxtImg
         src="/img/band-amiante.jpg"
         alt="amiante"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/3"
       />
 
       <!-- Obligation -->
@@ -59,7 +59,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             La recherche d'amiante s'effectue visuellement, elle est basée sur
@@ -84,7 +84,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Durée illimitée si aucune trace d’amiante n'est détectée (résultat

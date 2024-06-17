@@ -3,9 +3,9 @@
     <PageHeader
       :title="'Le diagnostic E.R.P'"
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic d’état des risques et pollution des sols'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -17,7 +17,7 @@
           pollution des sols :
         </p>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Le bien est situé dans une commune ayant un niveau de sismicité
@@ -47,7 +47,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Le diagnostiqueur recherche les risques identifiés par les autorités
@@ -67,7 +67,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>6 mois pour la vente</li>
           <li>6 mois pour la location</li>

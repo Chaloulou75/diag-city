@@ -3,7 +3,7 @@
     <PageHeader
       :title="'Le Projet de Plan Pluriannuel de Travaux (PPPT)'"
       :subtitle="'Utilité, obligations, déroulement et validité du Projet de Plan Pluriannuel de Travaux (PPPT)'"
-      :image="'bg-diagcity-blue bg-opacity-70'"
+      :image="'bg-diagcity-blue'"
     />
     <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
