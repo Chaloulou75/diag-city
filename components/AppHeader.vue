@@ -188,7 +188,7 @@ const items = [
 </script>
 <template>
   <header
-    class="z-50 flex flex-wrap w-full py-4 text-sm bg-white sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
+    class="z-50 flex w-full flex-wrap bg-white py-4 text-sm backdrop-blur-[2px] sm:flex-nowrap sm:justify-start sm:py-2 md:fixed"
     :class="background ? background : 'bg-opacity-90'"
   >
     <nav

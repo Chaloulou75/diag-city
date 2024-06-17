@@ -6,7 +6,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic amiante avant travaux/démolition'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -33,7 +33,7 @@
       <NuxtImg
         src="/img/band-amiante.jpg"
         alt="amiante"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/3"
       />
 
       <!-- Obligation -->
@@ -56,6 +56,31 @@
           protéger les personnes qui sont susceptibles d’être exposées à
           l’amiante lors des travaux.
         </p>
+        <div class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
+          <ul
+            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          >
+            <li>
+              1948: interdiction de l'utilisation de la céruse pour les
+              professionnels.
+            </li>
+            <li>
+              1988: interdiction du sulfate de plomb pour les professionnels.
+            </li>
+            <li>
+              1993: interdiction de mise sur le marché de la céruse et du
+              sulfate de plomb.
+            </li>
+            <li>
+              1995: interdiction de l'usage du plomb sous sa forme métallique
+              dans les canalisations.
+            </li>
+            <li>
+              Mai 2015: interdiction définitive du minium de plomb (traitements
+              antirouille).
+            </li>
+          </ul>
+        </div>
       </div>
 
       <!-- Déroulement de la mission -->
@@ -64,7 +89,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             Le diagnostiqueur va rechercher TOUTE l’amiante présente dans le
@@ -76,16 +101,6 @@
             Seul le diagnostiqueur peut déterminer le nombre de prélèvements à
             analyser, et cela pendant sa mission de repérage.
           </li>
-        </ul>
-      </div>
-
-      <!-- Validité -->
-      <div>
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
-        <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
-        >
-          <li>Pas de limite de temps</li>
         </ul>
       </div>
     </div>
