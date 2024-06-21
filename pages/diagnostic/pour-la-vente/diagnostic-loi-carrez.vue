@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic Loi Carrez'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container px-4 mx-auto tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -26,12 +26,14 @@
       <NuxtImg
         src="/img/carrez.jpeg"
         alt="loi carrez"
-        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-2/3"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
       />
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le mesurage Loi Carrez est une obligation du vendeur à effectuer lors
           de la vente d’un bien immobilier situé dans une copropriété. Le but du
@@ -43,7 +45,7 @@
           <br />
           En cas d’absence de la mention de superficie, l’acheteur a le droit de
           réclamer la nullité du contrat de vente dans un délai de 12 mois. Si
-          l’estimation de la superficie est erronée, (écart est supérieur à 5%)
+          l’estimation de la superficie est erronée, (écart supérieur à 5%)
           l’acquéreur a le droit de réclamer une réévaluation du prix (1% de
           réduction pour un mètre carré de différence).
         </p>
@@ -55,7 +57,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             À l’aide d'un laser mètre, le diagnostiqueur mesure très précisément
@@ -84,7 +86,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             Sans limite de temps. Toutefois, si des travaux ont été réalisés

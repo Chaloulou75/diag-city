@@ -43,7 +43,9 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Vous devez faire réaliser un Diagnostic Gaz sur les parties privatives
           de votre bien immobilier à usage d’habitation si vous souhaitez le

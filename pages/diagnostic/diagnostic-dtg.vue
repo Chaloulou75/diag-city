@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du Diagnostic Technique Global (DTG) pour les copropriétés'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container px-4 mx-auto tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -25,17 +25,19 @@
       <NuxtImg
         src="/img/band-dtg.jpg"
         alt="dtg"
-        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-2/3"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
       />
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le DTG est obligatoire pour les immeubles :
         </p>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             De plus de 10 ans et qui font l'objet d'une mise en copropriété
@@ -59,11 +61,11 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>Consultation des documents :</li>
           <ul
-            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
           >
             <li>Le règlement de la copropriété</li>
             <li>
@@ -78,7 +80,7 @@
             complémentaires suivantes :
           </li>
           <ul
-            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
           >
             <li>
               L’accès à l’ensemble des parties et espaces communs (codes,
@@ -91,7 +93,7 @@
           </ul>
           <li>Sur place :</li>
           <ul
-            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
           >
             <li>
               Un état apparent des parties communes et des équipements communs
@@ -114,7 +116,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>10 ans</li>
         </ul>

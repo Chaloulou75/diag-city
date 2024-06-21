@@ -44,7 +44,9 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce diagnostic n’est régi par aucune obligation législative ou
           réglementaire. Cependant, il est fréquent que votre étude notariale

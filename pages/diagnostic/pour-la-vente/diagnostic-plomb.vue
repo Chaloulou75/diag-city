@@ -28,7 +28,9 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           En cas de vente ou location de tout ou partie d’un immeuble
           d’habitation construit avant le 1er janvier 1949, un constat de risque
@@ -43,7 +45,7 @@
           des obligations de travaux. Il doit procéder sans attendre aux travaux
           appropriés pour supprimer le risque d’exposition au plomb. Il doit en
           informer les occupants et les personnes amenées à faire des travaux
-          dans l’immeuble ou la partie d’immeuble concerné.
+          dans l’immeuble ou la partie d’immeuble concernée.
           <br /><br />
           Les travaux consistent à supprimer le risque d’exposition au plomb. En
           recouvrant la surface à traiter ou à supprimer définitivement le
@@ -71,14 +73,14 @@
           <li>
             Ce diagnostic porte aussi sur les revêtements intérieurs (plinthes,
             murs, plafonds, portes), qu’extérieurs au logement (volets,
-            portail,...).
+            portails,...).
           </li>
           <li>
             Il a pour objet d’identifier les supports comportant une présence de
             plomb et d’en évaluer l’état de conservation. Son élaboration
             comprend un repérage des éléments de construction présentant des
             peintures à base de plomb et une évaluation de l’état de
-            conservation de ces peintures Le résultat du diagnostic est positif
+            conservation de ces peintures. Le résultat du diagnostic est positif
             lorsqu’il existe une accessibilité au plomb résultant de la présence
             de surfaces dégradées avec une concentration de plomb supérieure à 1
             mg/cm2ou à 5 mg/g ou à1,5 mg/g.

@@ -6,7 +6,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic amiante avant travaux/démolition'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container px-4 mx-auto tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -33,12 +33,14 @@
       <NuxtImg
         src="/img/band-amiante.jpg"
         alt="amiante"
-        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/3"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
       />
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Ce diagnostic doit être réalisé 1 mois avant chaque opération de
           travaux ou de démolition (totale et/ou partielle). C’est une phase
@@ -58,7 +60,7 @@
         </p>
         <div class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           <ul
-            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
           >
             <li>
               1948: interdiction de l'utilisation de la céruse pour les
@@ -89,7 +91,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             Le diagnostiqueur va rechercher TOUTE l’amiante présente dans le

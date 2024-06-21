@@ -35,13 +35,15 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Depuis le 8 juin 1999, le diagnostic termites est obligatoire pour
           toute vente d’un bien immobilier localisé dans l’une des zones à
           risque définies par arrêté préfectoral.
           <br />
-          Afin de donner à l’acquéreur, d’un bien situé en zone contaminée une
+          Afin de donner à l’acquéreur d’un bien situé en zone contaminée une
           information complète et précise sur l’état réel de celui-ci, le
           vendeur d’un bien immobilier situé dans une telle zone, doit annexer à
           la promesse de vente ou à défaut, à l’acte authentique un état du

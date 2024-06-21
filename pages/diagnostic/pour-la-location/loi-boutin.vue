@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic de surface habitable'"
       :image="'bg-diagcity-blue '"
     />
-    <div class="container px-4 mx-auto tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
           Utilité du Diagnostic Surface Habitable
@@ -21,7 +21,7 @@
       <NuxtImg
         src="/img/carrez.jpeg"
         alt="loi carrez-boutin"
-        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-2/3"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
       />
 
       <div class="mb-8">
@@ -39,7 +39,9 @@
       </div>
 
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Un propriétaire a l’obligation de notifier la superficie habitable du
           bien loué à la signature du bail. Cette obligation concerne les
@@ -58,7 +60,7 @@
           Déroulement de la Mission
         </h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             La loi Boutin n'oblige pas à avoir recours à un diagnostiqueur pour
@@ -82,7 +84,7 @@
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             Sans limite de temps. Toutefois, si des travaux ont été réalisés

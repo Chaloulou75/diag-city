@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic énergétique'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container px-4 mx-auto tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -17,12 +17,12 @@
           Performance Energétique est l’un des dispositifs de ce Plan Climat.
         </p>
         <p
-          class="text-lg leading-relaxed underline text-diagcity-gray md:text-xl"
+          class="text-lg leading-relaxed text-diagcity-gray underline md:text-xl"
         >
           Vous trouverez dans le rapport:
         </p>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>Le classement du bien selon sa consommation énergétique</li>
           <li>
@@ -43,12 +43,14 @@
       <NuxtImg
         src="/img/band-dpe-2.webp"
         alt="dpe"
-        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/3"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/3"
       />
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Le Diagnostic de Performance Energétique accompagne obligatoirement
           depuis le 1er novembre 2006 tout acte de vente. Depuis le 1er juillet
@@ -66,12 +68,12 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             Le diagnostiqueur certifié se déplace dans le bien à expertiser. Sur
             place, il contrôle et mesure les éléments nécessaires à l’évaluation
-            de la consommation énergétiques et les émissions du bien immobilier.
+            de la consommation énergétique et les émissions du bien immobilier.
             Sont pris en compte : le chauffage, l’eau chaude sanitaire, le
             refroidissement, l’enveloppe, la ventilation, l’altitude…
           </li>
@@ -82,9 +84,9 @@
           </li>
           <li>
             Le Diagnostic de Performance Energétique a pour but d’informer :
-            l’acquéreur ou le locataire ne peut se prévaloir des informations
-            contenues dans ce diagnostic à l’encontre du vendeur ou du
-            propriétaire bailleur. De plus, le résultat du DPE n’entraine pas
+            l’acquéreur et / ou le locataire ne peuvent se prévaloir des
+            informations contenues dans ce diagnostic à l’encontre du vendeur ou
+            du propriétaire bailleur. De plus, le résultat du DPE n’entraine pas
             l’obligation de faire des travaux, il a pour but d’inciter le
             propriétaire à améliorer la performance énergétique du bien.
           </li>
@@ -95,7 +97,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>10 ans pour une vente</li>
           <li>10 ans pour une location</li>

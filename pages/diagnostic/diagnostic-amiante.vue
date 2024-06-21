@@ -12,9 +12,9 @@
           L’utilité du Diagnostic amiante
         </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
-          L’amiante est un problème sanitaire de 1er ordre. Longtemps utilisé
-          dans le bâtiment pour ses excellentes propriétés d‘isolation, il est
-          interdit en France depuis 1997 et en Europe depuis 2005.
+          L’amiante est un problème sanitaire de 1er ordre. Longtemps utilisée
+          dans le bâtiment pour ses excellentes propriétés d‘isolation, elle est
+          interdite en France depuis 1997 et en Europe depuis 2005.
           <br />
           L’amiante est responsable de cancers et de maladies respiratoires
           graves avec un temps de latence long : une seule fibre inhalée peut
@@ -35,21 +35,23 @@
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           Que ce soit dans le cadre d'une vente ou d'une location, les
-          propriétaires ont l'obligation de réaliser le diagnostic amiante par
-          un diagnostiqueur certifié. Le propriétaire qui ne respecte pas cette
-          obligation de faire réaliser le diagnostic amiante peut se voir
-          infliger une amende de 5ème classe (soit 1500C).
+          propriétaires ont l'obligation de faire réaliser le diagnostic amiante
+          par un diagnostiqueur certifié. Le propriétaire qui ne respecte pas
+          cette obligation de faire réaliser le diagnostic amiante peut se voir
+          infliger une amende de 5ème classe (soit 1500€).
           <br />
           De plus, si le dossier amiante n'est pas annexé à la promesse de vente
           (ou au contrat de location s’il s'agit d'une mise en location) et que
           l'acquéreur (ou le futur locataire) découvre la présence d'amiante
           dans le logement, il peut engager la responsabilité du vendeur pour
           vices cachés, et saisir le tribunal d'instance pour diminution du prix
-          de vente (Ou du montant du loyer), Ou même l'annulation de la vente
-          (Ou du bail).
+          de vente (ou du montant du loyer), ou même l'annulation de la vente
+          (ou du bail).
         </p>
       </div>
 

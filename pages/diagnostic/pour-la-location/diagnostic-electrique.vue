@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du diagnostic électrique'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container px-4 mx-auto tracking-wider md:px-12">
+    <div class="container mx-auto px-4 tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -21,7 +21,7 @@
           suivants :
         </p>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>Interrupteurs et sectionneurs</li>
           <li>Fusibles, disjoncteurs, dispositifs différentiels</li>
@@ -41,12 +41,14 @@
       <NuxtImg
         src="/img/band-elec.jpg"
         alt="electricite"
-        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-1/2"
+        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-1/2"
       />
 
       <!-- Obligation -->
       <div class="mb-8">
-        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Obligation</h2>
+        <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
+          Obligations
+        </h2>
         <p class="text-lg leading-relaxed text-diagcity-gray md:text-xl">
           L’état des installations intérieures d’électricité est obligatoire en
           cas de vente d’un bien immobilier à usage d’habitation. Il concerne
@@ -63,7 +65,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>
             Un diagnostiqueur se déplace pour contrôler toutes les installations
@@ -75,7 +77,8 @@
             Ce diagnostic concerne l’installation en aval de l’appareil général
             de commande et de protection (généralement appelé disjoncteur de
             branchement), jusqu’aux bornes d’alimentation des matériels fixes
-            (convecteurs, chauffe-eau…) et jusqu’aux socles de prise de courant.
+            (convecteurs, chauffe-eaux…) et jusqu’aux socles de prise de
+            courant.
           </li>
           <li>
             Il ne porte que sur les constituants visibles de l’installation. Il
@@ -95,7 +98,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
+          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
         >
           <li>3 ans pour une vente</li>
           <li>6 ans pour une location</li>
