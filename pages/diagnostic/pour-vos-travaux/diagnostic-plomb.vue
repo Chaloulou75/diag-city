@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du Constat de Risque d’Exposition au Plomb (CREP)'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -23,7 +23,7 @@
       <NuxtImg
         src="/img/band-plomb.jpg"
         alt="plomb"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-2/3"
       />
 
       <!-- Obligation -->
@@ -43,7 +43,7 @@
           des obligations de travaux. Il doit procéder sans attendre aux travaux
           appropriés pour supprimer le risque d’exposition au plomb. Il doit en
           informer les occupants et les personnes amenées à faire des travaux
-          dans l’immeuble ou la partie d’immeuble concerné.
+          dans l’immeuble ou la partie d’immeuble concernée.
           <br /><br />
           Les travaux consistent à supprimer le risque d’exposition au plomb. En
           recouvrant la surface à traiter ou à supprimer définitivement le
@@ -60,7 +60,7 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             La recherche de plomb est effectuée au moyen d’un appareil à
@@ -71,17 +71,17 @@
           <li>
             Ce diagnostic porte aussi sur les revêtements intérieurs (plinthes,
             murs, plafonds, portes), qu’extérieurs au logement (volets,
-            portail,...).
+            portails,...).
           </li>
           <li>
             Il a pour objet d’identifier les supports comportant une présence de
             plomb et d’en évaluer l’état de conservation. Son élaboration
             comprend un repérage des éléments de construction présentant des
             peintures à base de plomb et une évaluation de l’état de
-            conservation de ces peintures Le résultat du diagnostic est positif
+            conservation de ces peintures. Le résultat du diagnostic est positif
             lorsqu’il existe une accessibilité au plomb résultant de la présence
             de surfaces dégradées avec une concentration de plomb supérieure à 1
-            mg/cm2ou à 5 mg/g ou à1,5 mg/g.
+            mg/cm2ou à 5 mg/g ou à 1,5 mg/g.
           </li>
         </ul>
       </div>
@@ -90,7 +90,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>1 an pour une vente</li>
           <li>6 ans pour une location</li>

@@ -5,7 +5,7 @@
       :subtitle="'Utilité, obligations, déroulement et validité du Diagnostic Technique Global (DTG) pour les copropriétés'"
       :image="'bg-diagcity-blue'"
     />
-    <div class="container mx-auto px-4 tracking-wider md:px-12">
+    <div class="container px-4 mx-auto tracking-wider md:px-12">
       <!-- Utilité -->
       <div class="mb-8">
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">
@@ -25,7 +25,7 @@
       <NuxtImg
         src="/img/band-dtg.jpg"
         alt="dtg"
-        class="mx-auto mb-8 h-auto w-full shadow-xl md:w-2/3"
+        class="w-full h-auto mx-auto mb-8 shadow-xl md:w-2/3"
       />
 
       <!-- Obligation -->
@@ -35,7 +35,7 @@
           Le DTG est obligatoire pour les immeubles :
         </p>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>
             De plus de 10 ans et qui font l'objet d'une mise en copropriété
@@ -59,15 +59,15 @@
           Déroulement de la mission
         </h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>Consultation des documents :</li>
           <ul
-            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
           >
             <li>Le règlement de la copropriété</li>
             <li>
-              Un état de la situation du syndicat des copropriétaire au regard
+              Un état de la situation du syndicat des copropriétaires au regard
               des obligations légales et règlementaires au titre de la
               construction et de l’habitation (fiche synthétique de la
               copropriété…)
@@ -78,7 +78,7 @@
             complémentaires suivantes :
           </li>
           <ul
-            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
           >
             <li>
               L’accès à l’ensemble des parties et espaces communs (codes,
@@ -91,7 +91,7 @@
           </ul>
           <li>Sur place :</li>
           <ul
-            class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+            class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
           >
             <li>
               Un état apparent des parties communes et des équipements communs
@@ -100,7 +100,7 @@
               Une analyse des améliorations possibles concernant la gestion
               technique et patrimoniale de l'immeuble (état de l'immeuble)
             </li>
-            <li>Un énergétique, avec recommandations d’améliorations</li>
+            <li>Un diag énergétique, avec recommandation d’améliorations</li>
             <li>
               Une évaluation sommaire du coût ainsi que la liste des travaux
               nécessaires à la conservation de l'immeuble (notamment sur les 10
@@ -114,7 +114,7 @@
       <div>
         <h2 class="mb-2 text-2xl font-bold text-diagcity-violet">Validité</h2>
         <ul
-          class="list-inside list-disc pl-8 text-lg leading-relaxed text-diagcity-gray md:text-xl"
+          class="pl-8 text-lg leading-relaxed list-disc list-inside text-diagcity-gray md:text-xl"
         >
           <li>10 ans</li>
         </ul>

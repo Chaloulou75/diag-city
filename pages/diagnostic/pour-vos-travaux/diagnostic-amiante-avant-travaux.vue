@@ -49,7 +49,7 @@
           maison individuelle appartenant à une personne privée ou publique,
           dont le permis de construire a été délivré avant le 1er juillet 1997.
           <br />
-          C’est à cette date que l’amiante a été interdit dans la construction
+          C’est à cette date que l’amiante a été interdite dans la construction
           et dans de nombreux autres domaines industriels.
           <br />
           Il est obligatoire de réaliser un diagnostic avant travaux afin de
