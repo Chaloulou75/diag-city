@@ -5,7 +5,6 @@
       <div class="mb-6 text-lg text-justify text-black">
         <p>
           Raison sociale : Diag City<br />
-          Forme juridique : Entrepreneur individuel<br />
           SIRET: 843 960 949<br />
           Responsable de la publication : Jesse Salomas <br />
           Adresse : 2 Rue Raphaël, 92170 Vanves. France<br />
