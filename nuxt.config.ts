@@ -35,6 +35,6 @@ export default defineNuxtConfig({
     format: ["webp"],
   },
   gtag: {
-    id: "G-XLRTQLEWW0",
+    id: "G-3J9T3R3BJ3",
   },
 });
