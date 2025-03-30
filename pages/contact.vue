@@ -26,7 +26,9 @@ import {
             class="flex items-center space-x-3 text-lg text-diagcity-gray hover:text-diagcity-blue md:text-xl"
           >
             <span class="inline-block h-6 w-6"><AtSymbolIcon /></span>
-            <a href="mailto:contact@diag-city.fr"> contact@diag-city.fr</a>
+            <a href="mailto:secretariat@diagcity.fr">
+              secretariat@diagcity.fr</a
+            >
           </p>
 
           <p
